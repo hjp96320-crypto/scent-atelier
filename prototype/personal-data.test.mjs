@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {restoreEditor,validateBackup,backupConflicts,mergeBackup} from './personal-data.mjs';
+import {bases,makeBlend} from './blend-model.mjs';
+const entry={id:'d1',date:'2026-01-01',perfumeId:'p1',note:'清新',weather:'晴朗',occasion:'办公室'};
+const backup=()=>({app:'Scent Atelier design prototype',version:1,works:[],diary:[structuredClone(entry)],owned:['p1'],draft:null,previousDraft:null});
+const ids=new Set(['p1']);
+test('backup validates current and historical envelope without changing input',()=>{const b=backup();assert.deepEqual(validateBackup(b,ids),b);assert.throws(()=>validateBackup({...b,version:99},ids));});
+test('backup rejects unknown products, duplicate IDs and impossible or future dates',()=>{for(const change of [{perfumeId:'unknown'},{date:'2026-02-30'},{date:'2999-01-01'},{note:''}]){const b=backup();Object.assign(b.diary[0],change);assert.throws(()=>validateBackup(b,ids));}const b=backup();b.diary.push({...entry});assert.throws(()=>validateBackup(b,ids));});
+test('backup rejects forged quantities and incomplete saved works',()=>{const b=backup(),draft=makeBlend();b.draft={...draft,rows:draft.rows.map(r=>({...r,added:r.target+1}))};assert.throws(()=>validateBackup(b,ids));b.draft=null;b.works=[{...draft,id:'w',name:'一瓶',date:new Date().toISOString()}];assert.throws(()=>validateBackup(b,ids));});
+test('repeated merge is idempotent and preserves current in-progress draft',()=>{const current={...backup(),draft:{name:'current'},trash:[]},b=backup();const result=mergeBackup(current,b);assert.deepEqual(mergeBackup(result,b),result);assert.deepEqual(result.draft,current.draft);});
+test('conflicts require explicit per-record choice without changing either input',()=>{const current=backup(),b=backup();b.diary[0].note='柔软';assert.equal(backupConflicts(current,b).length,1);assert.throws(()=>mergeBackup(current,b));assert.equal(mergeBackup(current,b,{'diary:d1':'current'}).diary[0].note,'清新');assert.equal(mergeBackup(current,b,{'diary:d1':'incoming'}).diary[0].note,'柔软');assert.equal(current.diary[0].note,'清新');});
+test('property ordering alone is not a conflict',()=>{const b=backup();b.diary=[Object.fromEntries(Object.entries(entry).reverse())];assert.equal(backupConflicts(backup(),b).length,0);});
+test('editor restores unfinished ratios while rejecting unknown or duplicate bases',()=>{const selected=bases.slice(0,3).map(b=>b.id),editor={capacity:10,ids:selected,entries:selected.map(id=>[id,20]),appearance:{},forceNew:true};assert.equal(restoreEditor({step:2,editor}).editor.entries[0][1],20);assert.equal(restoreEditor({step:2,editor:{...editor,ids:['unknown']}}),null);assert.equal(restoreEditor({step:2,editor:{...editor,ids:[selected[0],selected[0]]}}),null);});

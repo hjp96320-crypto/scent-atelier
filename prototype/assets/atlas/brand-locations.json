@@ -1,0 +1,1421 @@
+{
+  "precision": "city",
+  "attribution": "City coordinates: GeoNames, CC BY 4.0",
+  "coordinateLicense": "https://creativecommons.org/licenses/by/4.0/",
+  "brands": [
+    {
+      "brand": "CHANEL",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.chanel.com/fr/parfums/les-eaux-de-chanel/paris-paris/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "DIOR",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.lvmh.com/en/our-maisons/perfumes-cosmetics/parfums-christian-dior/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "HERMÈS",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.hermes.com/fr/fr/content/235056-six-generations-d-artisan/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GUERLAIN",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.guerlain.com/uk/en-uk/c/history.html",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "DIPTYQUE",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://us.diptyqueparis.com/en-us/pages/the-story-of-diptyque",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "FRAGONARD",
+      "region": "法国",
+      "city": "格拉斯",
+      "cityId": "3014856",
+      "position": [
+        6.92537,
+        43.65783
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://usines-parfum.fragonard.com/en/about-us/a-family-story/",
+      "coordinateSource": "https://www.geonames.org/3014856/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MOLINARD",
+      "region": "法国",
+      "city": "格拉斯",
+      "cityId": "3014856",
+      "position": [
+        6.92537,
+        43.65783
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://molinard.com/pages/les-5-generations",
+      "coordinateSource": "https://www.geonames.org/3014856/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "M. MICALLEF",
+      "region": "法国",
+      "city": "格拉斯",
+      "cityId": "3014856",
+      "position": [
+        6.92537,
+        43.65783
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://parfumsmicallef.com/en/pages/contact",
+      "coordinateSource": "https://www.geonames.org/3014856/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "L'OCCITANE",
+      "region": "法国",
+      "city": "马诺斯克",
+      "cityId": "2996180",
+      "position": [
+        5.78688,
+        43.82883
+      ],
+      "basis": "品牌工坊城市",
+      "sourceUrl": "https://uk.loccitane.com/visit-our-factory",
+      "coordinateSource": "https://www.geonames.org/2996180/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BERDOUES",
+      "region": "法国",
+      "city": "图卢兹",
+      "cityId": "2972315",
+      "position": [
+        1.44367,
+        43.60426
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://berdoues.com/pages/au-coeur-de-la-marque",
+      "coordinateSource": "https://www.geonames.org/2972315/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "YVES ROCHER",
+      "region": "法国",
+      "city": "拉加西利",
+      "cityId": "3009239",
+      "position": [
+        -2.13208,
+        47.76532
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://groupe-rocher.com/en/brands/yves-rocher",
+      "coordinateSource": "https://www.geonames.org/3009239/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "JO MALONE LONDON",
+      "region": "英国",
+      "city": "伦敦",
+      "cityId": "2643743",
+      "position": [
+        -0.12574,
+        51.50853
+      ],
+      "basis": "品牌工作室城市",
+      "sourceUrl": "https://www.jomalone.co.uk/our-house/our-values/the-townhouse",
+      "coordinateSource": "https://www.geonames.org/2643743/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "PENHALIGON'S",
+      "region": "英国",
+      "city": "伦敦",
+      "cityId": "2643743",
+      "position": [
+        -0.12574,
+        51.50853
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.penhaligons.com/uk/en/penhaligons-past-and-present",
+      "coordinateSource": "https://www.geonames.org/2643743/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "FLORIS",
+      "region": "英国",
+      "city": "伦敦",
+      "cityId": "2643743",
+      "position": [
+        -0.12574,
+        51.50853
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.florislondon.com/pages/jermyn-street",
+      "coordinateSource": "https://www.geonames.org/2643743/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BURBERRY",
+      "region": "英国",
+      "city": "贝辛斯托克",
+      "cityId": "2656192",
+      "position": [
+        -1.08708,
+        51.26249
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.burberryplc.com/company/history",
+      "coordinateSource": "https://www.geonames.org/2656192/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ACQUA DI PARMA",
+      "region": "意大利",
+      "city": "帕尔马",
+      "cityId": "3171457",
+      "position": [
+        10.32618,
+        44.79935
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.acquadiparma.com/on/demandware.static/-/Library-Sites-acquadiparmaLibrary/default/dw510f0a4c/pdf/adp-gift.pdf",
+      "coordinateSource": "https://www.geonames.org/3171457/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GUCCI",
+      "region": "意大利",
+      "city": "佛罗伦萨",
+      "cityId": "3176959",
+      "position": [
+        11.24626,
+        43.77925
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.gucci.com/int/en/nst/history-of-gucci",
+      "coordinateSource": "https://www.geonames.org/3176959/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "PRADA",
+      "region": "意大利",
+      "city": "米兰",
+      "cityId": "3173435",
+      "position": [
+        9.18951,
+        45.46427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.pradagroup.com/content/dam/pradagroup/documents/Group_Profile/2022/Company%20Profile%20Prada%20Group_ENG_20220308.pdf",
+      "coordinateSource": "https://www.geonames.org/3173435/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BULGARI",
+      "region": "意大利",
+      "city": "罗马",
+      "cityId": "3169070",
+      "position": [
+        12.51133,
+        41.89193
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.bulgari.com/it-it/bvlgari-history/1884",
+      "coordinateSource": "https://www.geonames.org/3169070/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "XERJOFF",
+      "region": "意大利",
+      "city": "都灵",
+      "cityId": "3165524",
+      "position": [
+        7.68682,
+        45.07049
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.xerjoff.com/en-ae/blogs/our-world/the-story-of-xerjoff",
+      "coordinateSource": "https://www.geonames.org/3165524/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SANTA MARIA NOVELLA",
+      "region": "意大利",
+      "city": "佛罗伦萨",
+      "cityId": "3176959",
+      "position": [
+        11.24626,
+        43.77925
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://us.smnovella.com/pages/our-story",
+      "coordinateSource": "https://www.geonames.org/3176959/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "TIZIANA TERENZI",
+      "region": "意大利",
+      "city": "卡托利卡",
+      "cityId": "3179347",
+      "position": [
+        12.73631,
+        43.96182
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://tizianaterenzi.com/contatti/",
+      "coordinateSource": "https://www.geonames.org/3179347/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "THE MERCHANT OF VENICE",
+      "region": "意大利",
+      "city": "威尼斯",
+      "cityId": "3164603",
+      "position": [
+        12.33265,
+        45.43713
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.themerchantofvenice.com/en/content/11-our-heritage",
+      "coordinateSource": "https://www.geonames.org/3164603/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "LE LABO",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.elcompanies.com/en/our-brands/le-labo",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ESTÉE LAUDER",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.elcompanies.com/en/our-brands/estee-lauder.",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BOND NO. 9 I LOVE NY",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.bondno9.com/pages/philosophy",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "KEIKO MECHERI",
+      "region": "美国",
+      "city": "洛杉矶",
+      "cityId": "5368361",
+      "position": [
+        -118.24368,
+        34.05223
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://keikomecheri.com/pages/press",
+      "coordinateSource": "https://www.geonames.org/5368361/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BYREDO",
+      "region": "瑞典",
+      "city": "斯德哥尔摩",
+      "cityId": "2673730",
+      "position": [
+        18.06871,
+        59.32938
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.byredo.com/se_en/about",
+      "coordinateSource": "https://www.geonames.org/2673730/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ORIFLAME",
+      "region": "瑞典",
+      "city": "斯德哥尔摩",
+      "cityId": "2673730",
+      "position": [
+        18.06871,
+        59.32938
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://corporate.oriflame.com/about-oriflame/our-history/",
+      "coordinateSource": "https://www.geonames.org/2673730/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "4711",
+      "region": "德国",
+      "city": "科隆",
+      "cityId": "2886242",
+      "position": [
+        6.95,
+        50.93333
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://4711.com/en/pages/faq",
+      "coordinateSource": "https://www.geonames.org/2886242/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "HUGO BOSS",
+      "region": "德国",
+      "city": "梅青根",
+      "cityId": "2871486",
+      "position": [
+        9.2833,
+        48.53695
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://group.hugoboss.com/de/unternehmen/geschichte",
+      "coordinateSource": "https://www.geonames.org/2871486/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SHISEIDO",
+      "region": "日本",
+      "city": "东京",
+      "cityId": "1850147",
+      "position": [
+        139.69171,
+        35.6895
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://corp.shiseido.com/en/company/history/5min.html",
+      "coordinateSource": "https://www.geonames.org/1850147/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ISSEY MIYAKE",
+      "region": "日本",
+      "city": "东京",
+      "cityId": "1850147",
+      "position": [
+        139.69171,
+        35.6895
+      ],
+      "basis": "品牌工作室城市",
+      "sourceUrl": "https://mds.isseymiyake.com/mds/en/company/",
+      "coordinateSource": "https://www.geonames.org/1850147/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "LOEWE",
+      "region": "西班牙",
+      "city": "马德里",
+      "cityId": "3117735",
+      "position": [
+        -3.70256,
+        40.4165
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.loewe.com/int/en/pd/stories/welcome-to-loewe.html",
+      "coordinateSource": "https://www.geonames.org/3117735/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AESOP",
+      "region": "澳大利亚",
+      "city": "墨尔本",
+      "cityId": "2158177",
+      "position": [
+        144.96332,
+        -37.814
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.aesop.com/careers.html",
+      "coordinateSource": "https://www.geonames.org/2158177/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GOLDFIELD & BANKS",
+      "region": "澳大利亚",
+      "city": "悉尼",
+      "cityId": "2147714",
+      "position": [
+        151.20732,
+        -33.86785
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.goldfieldandbanks.com/blogs/news/goldfield-and-banks-captures-australias-essence",
+      "coordinateSource": "https://www.geonames.org/2147714/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "RASASI",
+      "region": "阿联酋",
+      "city": "迪拜",
+      "cityId": "292223",
+      "position": [
+        55.30927,
+        25.07725
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.rasasi.com/public/THE%20HERITAGE",
+      "coordinateSource": "https://www.geonames.org/292223/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AMOUAGE",
+      "region": "阿曼",
+      "city": "马斯喀特",
+      "cityId": "287286",
+      "position": [
+        58.40778,
+        23.58413
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://amouage.com/en-uk/pages/mallofoman",
+      "coordinateSource": "https://www.geonames.org/287286/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "O BOTICÁRIO",
+      "region": "巴西",
+      "city": "库里蒂巴",
+      "cityId": "3464975",
+      "position": [
+        -49.27306,
+        -25.42778
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.grupoboticario.com.br/sobre-o-grupo-boticario/",
+      "coordinateSource": "https://www.geonames.org/3464975/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NATURA",
+      "region": "巴西",
+      "city": "圣保罗",
+      "cityId": "3448439",
+      "position": [
+        -46.63611,
+        -23.5475
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://ri.natura.com.br/en/company/history/",
+      "coordinateSource": "https://www.geonames.org/3448439/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ZOOLOGIST",
+      "region": "加拿大",
+      "city": "多伦多",
+      "cityId": "6167865",
+      "position": [
+        -79.38389,
+        43.65333
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://www.zoologistperfumes.com/pages/aboutus",
+      "coordinateSource": "https://www.geonames.org/6167865/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SLAVA ZAÏTSEV",
+      "region": "俄罗斯",
+      "city": "莫斯科",
+      "cityId": "524901",
+      "position": [
+        37.61781,
+        55.75204
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://zaitsevfamily.com/?page_id=12",
+      "coordinateSource": "https://www.geonames.org/524901/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GIVENCHY",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.lvmh.com/en/our-maisons/fashion-leather-good/givenchy",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "KENZO",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.lvmh.com/en/our-maisons/fashion-leather-good/kenzo/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "YVES SAINT LAURENT",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.ysl.com/en-en/collections/heritage",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MONTALE",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.montaleparfums.com/en/montale-history",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MANCERA",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://manceraparfums.com/us/upload/Mancera_Catalogue.pdf",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "DEMETER FRAGRANCE LIBRARY",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://demeterfragrance.com/pages/about-us",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AJMAL",
+      "region": "阿联酋",
+      "city": "迪拜",
+      "cityId": "292223",
+      "position": [
+        55.30927,
+        25.07725
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://en-ae.ajmal.com/privacy-policy",
+      "coordinateSource": "https://www.geonames.org/292223/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AL HARAMAIN",
+      "region": "阿联酋",
+      "city": "阿治曼",
+      "cityId": "292932",
+      "position": [
+        55.47878,
+        25.40177
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://ahp.alharamainperfumes.com/storelocator/listing/head-office-al-haramain-perfumes/",
+      "coordinateSource": "https://www.geonames.org/292932/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AFNAN",
+      "region": "阿联酋",
+      "city": "阿治曼",
+      "cityId": "292932",
+      "position": [
+        55.47878,
+        25.40177
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://exhibitor.beautyworldme.com/exhibitor-search-en/exhibitor-search.detail.html/afnan-perfumes-llc.html",
+      "coordinateSource": "https://www.geonames.org/292932/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SWISS ARABIAN",
+      "region": "阿联酋",
+      "city": "沙迦",
+      "cityId": "292672",
+      "position": [
+        55.41221,
+        25.3342
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://uae.swissarabian.com/pages/contact-us",
+      "coordinateSource": "https://www.geonames.org/292672/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AVON",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.avonworldwide.com/global/about-us/our-story",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "CAROLINA HERRERA",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://cfda.com/member/carolina-herrera/",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "CALVIN KLEIN",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.pvh.com/brands/calvin-klein",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "DOLCE & GABBANA",
+      "region": "意大利",
+      "city": "米兰",
+      "cityId": "3173435",
+      "position": [
+        9.18951,
+        45.46427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://jobs.dolcegabbana.com/it",
+      "coordinateSource": "https://www.geonames.org/3173435/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GIORGIO ARMANI",
+      "region": "意大利",
+      "city": "米兰",
+      "cityId": "3173435",
+      "position": [
+        9.18951,
+        45.46427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.armani.com/en-us/giorgio-armani/experience/about-giorgio-armani/",
+      "coordinateSource": "https://www.geonames.org/3173435/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SALVATORE FERRAGAMO",
+      "region": "意大利",
+      "city": "佛罗伦萨",
+      "cityId": "3176959",
+      "position": [
+        11.24626,
+        43.77925
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://group.ferragamo.com/en/the-group/group-history",
+      "coordinateSource": "https://www.geonames.org/3176959/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BENETTON",
+      "region": "意大利",
+      "city": "维洛尔巴",
+      "cityId": "3164090",
+      "position": [
+        12.25697,
+        45.71289
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.benettongroup.com/en/the-group/find-us/headquarters/",
+      "coordinateSource": "https://www.geonames.org/3164090/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "L'ARTISAN PARFUMEUR",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://parisjetaime.com/shopping/l-artisan-parfumeur-p2140",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ORMONDE JAYNE",
+      "region": "英国",
+      "city": "伦敦",
+      "cityId": "2643743",
+      "position": [
+        -0.12574,
+        51.50853
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://ormondejayne.com/en-gb/pages/origins",
+      "coordinateSource": "https://www.geonames.org/2643743/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ROJA",
+      "region": "英国",
+      "city": "布莱顿",
+      "cityId": "2654710",
+      "position": [
+        -0.13947,
+        50.82838
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07880709/persons-with-significant-control",
+      "coordinateSource": "https://www.geonames.org/2654710/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "JEANNE ARTHES",
+      "region": "法国",
+      "city": "格拉斯",
+      "cityId": "3014856",
+      "position": [
+        6.92537,
+        43.65783
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.jeanne-arthes.com/pages/notre-histoire",
+      "coordinateSource": "https://www.geonames.org/3014856/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "AZZARO",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.azzaro.com/en/fragrances/the-brand",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "REUZEL",
+      "region": "荷兰",
+      "city": "鹿特丹",
+      "cityId": "2747891",
+      "position": [
+        4.47917,
+        51.9225
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.reuzel.com/pages/about-us",
+      "coordinateSource": "https://www.geonames.org/2747891/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NATIO",
+      "region": "澳大利亚",
+      "city": "墨尔本",
+      "cityId": "2158177",
+      "position": [
+        144.96332,
+        -37.814
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.natio.com.au/pages/our-values",
+      "coordinateSource": "https://www.geonames.org/2158177/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "LA MARTINA",
+      "region": "阿根廷",
+      "city": "布宜诺斯艾利斯",
+      "cityId": "3435910",
+      "position": [
+        -58.37723,
+        -34.61315
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://lamartina.com/en-us/pages/about-us",
+      "coordinateSource": "https://www.geonames.org/3435910/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "HOUBIGANT",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.houbigant-parfum.com/pages/about-us",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ANTICA BARBIERIA COLLA",
+      "region": "意大利",
+      "city": "米兰",
+      "cityId": "3173435",
+      "position": [
+        9.18951,
+        45.46427
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.anticabarbieriacolla.com/en/the-bottega/our-story/",
+      "coordinateSource": "https://www.geonames.org/3173435/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "TO SUMMER",
+      "region": "中国",
+      "city": "北京",
+      "cityId": "1816670",
+      "position": [
+        116.39723,
+        39.9075
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.prnasia.com/story/436542-1.shtml",
+      "coordinateSource": "https://www.geonames.org/1816670/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BOITOWN",
+      "region": "中国",
+      "city": "上海",
+      "cityId": "1796236",
+      "position": [
+        121.45806,
+        31.22222
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.weibo.com/1909022324/M2y3D5j87",
+      "coordinateSource": "https://www.geonames.org/1796236/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "RECLASSIFIED",
+      "region": "中国",
+      "city": "上海",
+      "cityId": "1796236",
+      "position": [
+        121.45806,
+        31.22222
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://mall.jd.com/introduction-662957.html",
+      "coordinateSource": "https://www.geonames.org/1796236/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "SCENT LIBRARY",
+      "region": "中国",
+      "city": "北京",
+      "cityId": "1816670",
+      "position": [
+        116.39723,
+        39.9075
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://english.visitbeijing.com.cn/article/47ONvXiO592",
+      "coordinateSource": "https://www.geonames.org/1816670/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "VIVINEVO",
+      "region": "中国",
+      "city": "广州",
+      "cityId": "1809858",
+      "position": [
+        113.25,
+        23.11667
+      ],
+      "basis": "品牌所属企业城市",
+      "sourceUrl": "https://www.huadu.gov.cn/gzjg/rdzxqtgjjg/qgsl/shdt/content/post_10303784.html",
+      "coordinateSource": "https://www.geonames.org/1809858/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "DOCUMENTS",
+      "region": "中国",
+      "city": "上海",
+      "cityId": "1796236",
+      "position": [
+        121.45806,
+        31.22222
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://m.chinapp.com/company/103211",
+      "coordinateSource": "https://www.geonames.org/1796236/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "THE 7 VIRTUES",
+      "region": "加拿大",
+      "city": "哈利法克斯",
+      "cityId": "6324729",
+      "position": [
+        -63.57688,
+        44.64269
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://the7virtues.com/pages/terms-and-conditions",
+      "coordinateSource": "https://www.geonames.org/6324729/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "EX NIHILO",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.clearwatercf.com/fr-fr/experience/transactions/fr-ex-nihilo-realise-un-lbo-bis-avec-l-catterton/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NICOLAÏ",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://nicolaiparis.com/en/pages/our-history",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GOUTAL",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.annickgoutal.com/en/pages/notre-histoire",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NASOMATTO",
+      "region": "荷兰",
+      "city": "阿姆斯特丹",
+      "cityId": "2759794",
+      "position": [
+        4.88969,
+        52.37403
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://nasomatto.com/pages/terms-conditions",
+      "coordinateSource": "https://www.geonames.org/2759794/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ORTO PARISI",
+      "region": "荷兰",
+      "city": "阿姆斯特丹",
+      "cityId": "2759794",
+      "position": [
+        4.88969,
+        52.37403
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://ortoparisi.com/pages/terms-conditions",
+      "coordinateSource": "https://www.geonames.org/2759794/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NISHANE",
+      "region": "土耳其",
+      "city": "伊斯坦布尔",
+      "cityId": "745044",
+      "position": [
+        28.94966,
+        41.01384
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://nishane.com/about/",
+      "coordinateSource": "https://www.geonames.org/745044/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "NISHANE ISTANBUL",
+      "region": "土耳其",
+      "city": "伊斯坦布尔",
+      "cityId": "745044",
+      "position": [
+        28.94966,
+        41.01384
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://nishane.com/about/",
+      "coordinateSource": "https://www.geonames.org/745044/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MONSILLAGE",
+      "region": "加拿大",
+      "city": "蒙特利尔",
+      "cityId": "6077243",
+      "position": [
+        -73.58781,
+        45.50884
+      ],
+      "basis": "品牌工作室城市",
+      "sourceUrl": "https://designmontreal.com/en/directory-designers/monsillage",
+      "coordinateSource": "https://www.geonames.org/6077243/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BOIS 1920",
+      "region": "意大利",
+      "city": "佛罗伦萨",
+      "cityId": "3176959",
+      "position": [
+        11.24626,
+        43.77925
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://www.bois1920.it/chi-siamo/",
+      "coordinateSource": "https://www.geonames.org/3176959/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GRITTI",
+      "region": "意大利",
+      "city": "雷诺河畔卡尔代拉拉",
+      "cityId": "3181212",
+      "position": [
+        11.27111,
+        44.56307
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://www.grittifragrances.com/pages/contact-us",
+      "coordinateSource": "https://www.geonames.org/3181212/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "THE BODY SHOP",
+      "region": "英国",
+      "city": "布莱顿",
+      "cityId": "2654710",
+      "position": [
+        -0.13947,
+        50.82838
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://us.thebodyshop.com/blogs/about-us/about-us",
+      "coordinateSource": "https://www.geonames.org/2654710/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "TOM FORD",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.linkedin.com/company/tom-ford-fashion",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MARC JACOBS",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.marcjacobs.com/mt-en/legal-copy/ca-sb-657.html",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "MIZENSIR",
+      "region": "瑞士",
+      "city": "日内瓦",
+      "cityId": "2660646",
+      "position": [
+        6.14569,
+        46.20222
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.mizensir.com/pages/histoire-dune-maison-suisse",
+      "coordinateSource": "https://www.geonames.org/2660646/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "CHOPARD",
+      "region": "瑞士",
+      "city": "松维利耶",
+      "cityId": "2658553",
+      "position": [
+        6.96404,
+        47.13883
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.chopard.com/en-nz/our-history.html",
+      "coordinateSource": "https://www.geonames.org/2658553/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "VICTORINOX SWISS ARMY",
+      "region": "瑞士",
+      "city": "伊巴赫",
+      "cityId": "2660279",
+      "position": [
+        8.64538,
+        47.01105
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.victorinox.com/en/All-about-Victorinox/History/cms/history/",
+      "coordinateSource": "https://www.geonames.org/2660279/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ASABI",
+      "region": "德国",
+      "city": "哈尔弗",
+      "cityId": "2911384",
+      "position": [
+        7.49817,
+        51.18612
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://asabishop.com/pages/impressum",
+      "coordinateSource": "https://www.geonames.org/2911384/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "D'LAV",
+      "region": "瑞士",
+      "city": "楚格",
+      "cityId": "2657908",
+      "position": [
+        8.51745,
+        47.17242
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://d-lav.com/impressum/",
+      "coordinateSource": "https://www.geonames.org/2657908/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "URBAN GABRU",
+      "region": "印度",
+      "city": "新德里",
+      "cityId": "1261481",
+      "position": [
+        77.2148,
+        28.62137
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.urbangabru.in/pages/privacy-policy",
+      "coordinateSource": "https://www.geonames.org/1261481/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "GABAR",
+      "region": "英国",
+      "city": "伦敦",
+      "cityId": "2643743",
+      "position": [
+        -0.12574,
+        51.50853
+      ],
+      "basis": "品牌注册城市",
+      "sourceUrl": "https://gabarworld.com/pages/privacy-policy",
+      "coordinateSource": "https://www.geonames.org/2643743/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "CARTIER",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "创立城市",
+      "sourceUrl": "https://www.richemont.com/our-maisons/cartier/",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "LALIQUE",
+      "region": "法国",
+      "city": "巴黎",
+      "cityId": "2988507",
+      "position": [
+        2.3488,
+        48.85341
+      ],
+      "basis": "品牌早期工坊城市",
+      "sourceUrl": "https://fr.lalique.com/en/pages/story-of-lalique",
+      "coordinateSource": "https://www.geonames.org/2988507/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "RALPH LAUREN",
+      "region": "美国",
+      "city": "纽约",
+      "cityId": "5128581",
+      "position": [
+        -74.00597,
+        40.71427
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://corporate.ralphlauren.com/contact",
+      "coordinateSource": "https://www.geonames.org/5128581/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "BATH & BODY WORKS",
+      "region": "美国",
+      "city": "哥伦布",
+      "cityId": "4509177",
+      "position": [
+        -82.99879,
+        39.96118
+      ],
+      "basis": "品牌总部城市",
+      "sourceUrl": "https://www.linkedin.com/company/bath-and-body-works/",
+      "coordinateSource": "https://www.geonames.org/4509177/",
+      "checkedAt": "2026-11-09"
+    },
+    {
+      "brand": "ARMAF",
+      "region": "阿联酋",
+      "city": "迪拜",
+      "cityId": "292223",
+      "position": [
+        55.30927,
+        25.07725
+      ],
+      "basis": "品牌所在地",
+      "sourceUrl": "https://www.armaf.ae/pages/contact-us",
+      "coordinateSource": "https://www.geonames.org/292223/",
+      "checkedAt": "2026-11-09"
+    }
+  ]
+}

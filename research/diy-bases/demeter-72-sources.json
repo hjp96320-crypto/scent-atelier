@@ -1,0 +1,599 @@
+{
+  "checkedAt": "2026-11-08",
+  "supplier": "Demeter Fragrance Library",
+  "format": "Cologne Spray",
+  "catalogProductCountAtCheck": 299,
+  "selectedDistinctScents": 72,
+  "catalogSources": [
+    "https://demeterfragrance.com/collections/cologne-spray",
+    "https://demeterfragrance.com/collections/cologne-spray?page=2",
+    "https://demeterfragrance.com/collections/cologne-spray?page=3"
+  ],
+  "blendingSource": "https://demeterfragrance.com/pages/foolproof-blending-stories",
+  "verification": "Each entry was followed from the official Cologne Spray collection to its official product page; title and URL matched the Cologne Spray version. No perfume oils or volume variants were counted as separate scents.",
+  "boundaries": [
+    "Chinese names, scent-family navigation labels, cue descriptions and liquid colors are editorial, not chemical formulas or measured predictions.",
+    "These are finished cologne spray fragrances, not essential oils or fragrance concentrates; no concentration percentage is inferred.",
+    "Official blending advice distinguishes Universal, Fragrant Heart and Base Accents and curated Blending Stories. App recipes are editorial starting points, not official or smelled formulas.",
+    "The official tool-kit page says the 3.4 oz/100 ml cologne bottle cannot be opened/reused like the smaller cologne bottles.",
+    "This is a virtual selection library, not a statement of current shop inventory or purchase availability."
+  ],
+  "products": [
+    {
+      "id": "demeter-pink-grapefruit",
+      "nameZh": "粉红葡萄柚",
+      "name": "Pink Grapefruit",
+      "title": "Pink Grapefruit Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/pink-grapefruit-cologne-spray"
+    },
+    {
+      "id": "demeter-sweet-orange",
+      "nameZh": "甜橙",
+      "name": "Sweet Orange",
+      "title": "Sweet Orange Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/sweet-orange-cologne-spray"
+    },
+    {
+      "id": "demeter-gingerale",
+      "nameZh": "姜汁汽水",
+      "name": "Gingerale",
+      "title": "Gingerale Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/gingerale-cologne-spray"
+    },
+    {
+      "id": "demeter-earl-grey-tea",
+      "nameZh": "伯爵茶",
+      "name": "Earl Grey Tea",
+      "title": "Earl Grey Tea Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/earl-grey-tea-cologne-spray"
+    },
+    {
+      "id": "demeter-black-tea",
+      "nameZh": "红茶",
+      "name": "Black Tea",
+      "title": "Black Tea Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/black-tea-cologne-spray"
+    },
+    {
+      "id": "demeter-sweet-tea",
+      "nameZh": "甜茶",
+      "name": "Sweet Tea",
+      "title": "Sweet Tea Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/sweet-tea-cologne-spray"
+    },
+    {
+      "id": "demeter-chai-tea",
+      "nameZh": "印度香料茶",
+      "name": "Chai Tea",
+      "title": "Chai Tea Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/chai-tea-cologne-spray"
+    },
+    {
+      "id": "demeter-fresh-brewed-coffee",
+      "nameZh": "现煮咖啡",
+      "name": "Fresh Brewed Coffee",
+      "title": "Fresh Brewed Coffee Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/fresh-brewed-coffee-cologne-spray"
+    },
+    {
+      "id": "demeter-espresso",
+      "nameZh": "浓缩咖啡",
+      "name": "Espresso",
+      "title": "Espresso Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/espresso-cologne-spray"
+    },
+    {
+      "id": "demeter-honeysuckle",
+      "nameZh": "忍冬",
+      "name": "Honeysuckle",
+      "title": "Honeysuckle Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/honeysuckle-cologne-spray"
+    },
+    {
+      "id": "demeter-lilac",
+      "nameZh": "紫丁香",
+      "name": "Lilac",
+      "title": "Lilac Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/lilac-cologne-spray"
+    },
+    {
+      "id": "demeter-jasmine",
+      "nameZh": "茉莉",
+      "name": "Jasmine",
+      "title": "Jasmine Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/jasmine-cologne-spray"
+    },
+    {
+      "id": "demeter-hyacinth",
+      "nameZh": "风信子",
+      "name": "Hyacinth",
+      "title": "Hyacinth Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/hyacinth-cologne-spray"
+    },
+    {
+      "id": "demeter-bulgarian-rose",
+      "nameZh": "保加利亚玫瑰",
+      "name": "Bulgarian Rose",
+      "title": "Bulgarian Rose Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/bulgarian-rose-cologne-spray"
+    },
+    {
+      "id": "demeter-orange-blossom",
+      "nameZh": "橙花",
+      "name": "Orange Blossom",
+      "title": "Orange Blossom Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/orange-blossom-cologne-spray"
+    },
+    {
+      "id": "demeter-gardenia",
+      "nameZh": "栀子花",
+      "name": "Gardenia",
+      "title": "Gardenia Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/gardenia-cologne-spray"
+    },
+    {
+      "id": "demeter-violet",
+      "nameZh": "紫罗兰",
+      "name": "Violet",
+      "title": "Violet Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/violet-cologne-spray"
+    },
+    {
+      "id": "demeter-lily-of-the-valley",
+      "nameZh": "铃兰",
+      "name": "Lily Of The Valley",
+      "title": "Lily Of The Valley Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/lily-of-the-valley-cologne-spray"
+    },
+    {
+      "id": "demeter-dark-roses",
+      "nameZh": "暗夜玫瑰",
+      "name": "Dark Roses",
+      "title": "Dark Roses Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/dark-roses-cologne-spray"
+    },
+    {
+      "id": "demeter-sandalwood",
+      "nameZh": "檀香",
+      "name": "Sandalwood",
+      "title": "Sandalwood Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/sandalwood-cologne-spray"
+    },
+    {
+      "id": "demeter-cedar",
+      "nameZh": "雪松",
+      "name": "Cedar",
+      "title": "Cedar Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/cedar-cologne-spray"
+    },
+    {
+      "id": "demeter-vetiver",
+      "nameZh": "香根草",
+      "name": "Vetiver",
+      "title": "Vetiver Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/vetiver-cologne-spray"
+    },
+    {
+      "id": "demeter-fraser-fir",
+      "nameZh": "弗雷泽冷杉",
+      "name": "Fraser Fir",
+      "title": "Fraser Fir Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/fraser-fir-cologne-spray"
+    },
+    {
+      "id": "demeter-siberian-pine",
+      "nameZh": "西伯利亚松",
+      "name": "Siberian Pine",
+      "title": "Siberian Pine Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/siberian-pine-cologne-spray"
+    },
+    {
+      "id": "demeter-blue-spruce",
+      "nameZh": "蓝云杉",
+      "name": "Blue Spruce",
+      "title": "Blue Spruce Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/blue-spruce-cologne-spray"
+    },
+    {
+      "id": "demeter-mahogany",
+      "nameZh": "桃花心木",
+      "name": "Mahogany",
+      "title": "Mahogany Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/mahogany-cologne-spray"
+    },
+    {
+      "id": "demeter-log-cabin",
+      "nameZh": "林间木屋",
+      "name": "Log Cabin",
+      "title": "Log Cabin Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/log-cabin-cologne-spray"
+    },
+    {
+      "id": "demeter-sawdust",
+      "nameZh": "锯末",
+      "name": "Sawdust",
+      "title": "Sawdust Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/sawdust-cologne-spray"
+    },
+    {
+      "id": "demeter-paperback",
+      "nameZh": "平装书",
+      "name": "Paperback",
+      "title": "Paperback Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/paperback-cologne-spray"
+    },
+    {
+      "id": "demeter-rain",
+      "nameZh": "雨",
+      "name": "Rain",
+      "title": "Rain Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/rain-cologne-spray"
+    },
+    {
+      "id": "demeter-salt-air",
+      "nameZh": "海盐空气",
+      "name": "Salt Air",
+      "title": "Salt Air Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/salt-air-cologne-spray"
+    },
+    {
+      "id": "demeter-thunderstorm",
+      "nameZh": "雷雨",
+      "name": "Thunderstorm",
+      "title": "Thunderstorm Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/thunderstorm-cologne-spray"
+    },
+    {
+      "id": "demeter-snow",
+      "nameZh": "雪",
+      "name": "Snow",
+      "title": "Snow Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/snow-cologne-spray"
+    },
+    {
+      "id": "demeter-mountain-air",
+      "nameZh": "山间空气",
+      "name": "Mountain Air",
+      "title": "Mountain Air Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/mountain-air-cologne-spray"
+    },
+    {
+      "id": "demeter-pure-soap",
+      "nameZh": "纯净皂香",
+      "name": "Pure Soap",
+      "title": "Pure Soap Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/pure-soap-cologne-spray"
+    },
+    {
+      "id": "demeter-baby-powder",
+      "nameZh": "婴儿爽身粉",
+      "name": "Baby Powder",
+      "title": "Baby Powder Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/baby-powder-cologne-spray"
+    },
+    {
+      "id": "demeter-clean-skin",
+      "nameZh": "洁净肌肤",
+      "name": "Clean Skin",
+      "title": "Clean Skin Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/clean-skin-cologne-spray"
+    },
+    {
+      "id": "demeter-linen",
+      "nameZh": "亚麻",
+      "name": "Linen",
+      "title": "Linen Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/linen-cologne-spray"
+    },
+    {
+      "id": "demeter-grass",
+      "nameZh": "青草",
+      "name": "Grass",
+      "title": "Grass Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/grass-cologne-spray"
+    },
+    {
+      "id": "demeter-fig-leaf",
+      "nameZh": "无花果叶",
+      "name": "Fig Leaf",
+      "title": "Fig Leaf Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/fig-leaf-cologne-spray"
+    },
+    {
+      "id": "demeter-tomato",
+      "nameZh": "番茄",
+      "name": "Tomato",
+      "title": "Tomato Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/tomato-cologne-spray"
+    },
+    {
+      "id": "demeter-wet-garden",
+      "nameZh": "雨后花园",
+      "name": "Wet Garden",
+      "title": "Wet Garden Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/wet-garden-cologne-spray"
+    },
+    {
+      "id": "demeter-blueberry",
+      "nameZh": "蓝莓",
+      "name": "Blueberry",
+      "title": "Blueberry Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/blueberry-cologne-spray"
+    },
+    {
+      "id": "demeter-coconut",
+      "nameZh": "椰子",
+      "name": "Coconut",
+      "title": "Coconut Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/coconut-cologne-spray"
+    },
+    {
+      "id": "demeter-pineapple",
+      "nameZh": "菠萝",
+      "name": "Pineapple",
+      "title": "Pineapple Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/pineapple-cologne-spray"
+    },
+    {
+      "id": "demeter-peach",
+      "nameZh": "桃子",
+      "name": "Peach",
+      "title": "Peach Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/peach-cologne-spray"
+    },
+    {
+      "id": "demeter-royal-apricot",
+      "nameZh": "皇家杏子",
+      "name": "Royal Apricot",
+      "title": "Royal Apricot Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/royal-apricot-cologne-spray"
+    },
+    {
+      "id": "demeter-persimmon",
+      "nameZh": "柿子",
+      "name": "Persimmon",
+      "title": "Persimmon Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/persimmon-cologne-spray"
+    },
+    {
+      "id": "demeter-clove",
+      "nameZh": "丁香花蕾",
+      "name": "Clove",
+      "title": "Clove Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/clove-cologne-spray"
+    },
+    {
+      "id": "demeter-black-pepper",
+      "nameZh": "黑胡椒",
+      "name": "Black Pepper",
+      "title": "Black Pepper Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/black-pepper-cologne-spray"
+    },
+    {
+      "id": "demeter-cardamom",
+      "nameZh": "小豆蔻",
+      "name": "Cardamom",
+      "title": "Cardamom Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/cardamom-cologne-spray"
+    },
+    {
+      "id": "demeter-cinnamon-bark",
+      "nameZh": "肉桂树皮",
+      "name": "Cinnamon Bark",
+      "title": "Cinnamon Bark Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/cinnamon-bark-cologne-spray"
+    },
+    {
+      "id": "demeter-frankincense",
+      "nameZh": "乳香",
+      "name": "Frankincense",
+      "title": "Frankincense Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/frankincense-cologne-spray"
+    },
+    {
+      "id": "demeter-myrrh",
+      "nameZh": "没药",
+      "name": "Myrrh",
+      "title": "Myrrh Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/myrrh-cologne-spray"
+    },
+    {
+      "id": "demeter-amber",
+      "nameZh": "琥珀",
+      "name": "Amber",
+      "title": "Amber Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/amber-cologne-spray"
+    },
+    {
+      "id": "demeter-marshmallow",
+      "nameZh": "棉花软糖",
+      "name": "Marshmallow",
+      "title": "Marshmallow Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/marshmallow-cologne-spray"
+    },
+    {
+      "id": "demeter-hawaiian-vanilla",
+      "nameZh": "夏威夷香草",
+      "name": "Hawaiian Vanilla",
+      "title": "Hawaiian Vanilla Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/hawaiian-vanilla-cologne-spray"
+    },
+    {
+      "id": "demeter-dark-chocolate",
+      "nameZh": "黑巧克力",
+      "name": "Dark Chocolate",
+      "title": "Dark Chocolate Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/dark-chocolate-cologne-spray"
+    },
+    {
+      "id": "demeter-caramel",
+      "nameZh": "焦糖",
+      "name": "Caramel",
+      "title": "Caramel Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/caramel-cologne-spray"
+    },
+    {
+      "id": "demeter-honey",
+      "nameZh": "蜂蜜",
+      "name": "Honey",
+      "title": "Honey Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/honey-cologne-spray"
+    },
+    {
+      "id": "demeter-almond",
+      "nameZh": "杏仁",
+      "name": "Almond",
+      "title": "Almond Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/almond-cologne-spray"
+    },
+    {
+      "id": "demeter-vanilla-cake-batter",
+      "nameZh": "香草蛋糕糊",
+      "name": "Vanilla Cake Batter",
+      "title": "Vanilla Cake Batter Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/vanilla-cake-batter-cologne-spray"
+    },
+    {
+      "id": "demeter-condensed-milk",
+      "nameZh": "炼乳",
+      "name": "Condensed Milk",
+      "title": "Condensed Milk Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/condensed-milk-cologne-spray"
+    },
+    {
+      "id": "demeter-pistachio-ice-cream",
+      "nameZh": "开心果冰淇淋",
+      "name": "Pistachio Ice Cream",
+      "title": "Pistachio Ice Cream Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/pistachio-ice-cream-cologne-spray"
+    },
+    {
+      "id": "demeter-cotton-candy",
+      "nameZh": "棉花糖丝",
+      "name": "Cotton Candy",
+      "title": "Cotton Candy Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/cotton-candy-cologne-spray"
+    },
+    {
+      "id": "demeter-angel-food",
+      "nameZh": "天使蛋糕",
+      "name": "Angel Food",
+      "title": "Angel Food Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/angel-food-cologne-spray"
+    },
+    {
+      "id": "demeter-gingerbread",
+      "nameZh": "姜饼",
+      "name": "Gingerbread",
+      "title": "Gingerbread Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/gingerbread-cologne-spray"
+    },
+    {
+      "id": "demeter-lemon-meringue",
+      "nameZh": "柠檬蛋白霜",
+      "name": "Lemon Meringue",
+      "title": "Lemon Meringue Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/lemon-meringue-cologne-spray"
+    },
+    {
+      "id": "demeter-leather",
+      "nameZh": "皮革",
+      "name": "Leather",
+      "title": "Leather Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/leather-cologne-spray"
+    },
+    {
+      "id": "demeter-patchouli",
+      "nameZh": "广藿香",
+      "name": "Patchouli",
+      "title": "Patchouli Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/patchouli-cologne-spray"
+    },
+    {
+      "id": "demeter-pipe-tobacco",
+      "nameZh": "烟斗烟草",
+      "name": "Pipe Tobacco",
+      "title": "Pipe Tobacco Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/pipe-tobacco-cologne-spray"
+    },
+    {
+      "id": "demeter-bonfire",
+      "nameZh": "篝火",
+      "name": "Bonfire",
+      "title": "Bonfire Cologne Spray",
+      "productType": "Cologne Spray",
+      "source": "https://demeterfragrance.com/products/bonfire-cologne-spray"
+    }
+  ]
+}

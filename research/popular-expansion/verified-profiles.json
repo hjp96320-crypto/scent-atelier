@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "chanel-coco-mademoiselle-edp",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.chanel.com/us/fragrance/p/116390/coco-mademoiselle-eau-de-parfum-spray/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "橙子",
+      "茉莉",
+      "五月玫瑰",
+      "广藿香",
+      "香根草"
+    ],
+    "stages": [
+      "橙子的果皮香让开场显得明亮。可以联想刚剥开的橙皮，留意那种轻快的清爽感。",
+      "茉莉与五月玫瑰形成花香主体，果皮香与花香可以同时出现，不一定按顺序完全替换。",
+      "广藿香和香根草带出木质与根系感，为花香留下较干燥的收尾；留香时长因人而异。"
+    ],
+    "wear": {
+      "audience": "喜欢明亮花香，同时能接受广藿香与干燥木质余韵的人。",
+      "occasions": [
+        "白天会面",
+        "晚餐约会"
+      ],
+      "impression": "明亮果皮香接上茉莉、玫瑰花束，木质余韵让整体多一份干爽。",
+      "consideration": "近距离办公时先少量试穿；不喜欢广藿香的人，建议连同后段一起试闻。"
+    },
+    "pyramid": {
+      "top": [
+        "橙子"
+      ],
+      "heart": [
+        "茉莉",
+        "五月玫瑰"
+      ],
+      "base": [
+        "广藿香",
+        "香根草"
+      ]
+    }
+  },
+  {
+    "id": "hf-20113",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.chanel.com/us/fragrance/p/107360/bleu-de-chanel-eau-de-parfum-spray/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "芳香调",
+      "雪松",
+      "檀香",
+      "琥珀调",
+      "麝香调"
+    ],
+    "stages": [
+      "初闻时先辨认清爽芳香与木头气息的对比，观察自己觉得轻快还是厚实。",
+      "展开后可重点留意雪松的干爽木质感，与檀香较圆润的质感如何衔接。",
+      "气味渐淡时，留意檀香的圆润木质、琥珀的暖意，以及麝香的柔软感。"
+    ],
+    "wear": {
+      "audience": "喜欢有干爽木质感，又希望带一点圆润温暖感的人。",
+      "occasions": [
+        "日常通勤",
+        "正式会面"
+      ],
+      "impression": "雪松与檀香构成木质轮廓，琥珀、麝香增加柔和印象。",
+      "consideration": "会议室或近距离交流时先少量试穿，观察干爽木质和柔和暖意是否符合自己的偏好。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "dior-sauvage-edt",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.dior.com/en_us/beauty/products/sauvage-eau-de-toilette-F068524009.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "四川胡椒",
+      "降龙涎香醚（Ambroxan）",
+      "榄香脂",
+      "木质调"
+    ],
+    "stages": [
+      "佛手柑带来明亮的果皮清新感，胡椒添一点辛锐，像清爽果皮旁撒了少许香料。",
+      "展开时可对照清新的柑橘与辛香、琥珀木质感，看看哪一部分对你更突出。",
+      "后段可留意降龙涎香醚（Ambroxan）偏干燥、带琥珀感的木质印象，以及榄香脂的树脂气息。"
+    ],
+    "wear": {
+      "audience": "喜欢鲜明柑橘、胡椒辛香和琥珀木质感的人。",
+      "occasions": [
+        "白天外出",
+        "日常社交"
+      ],
+      "impression": "开场清亮，辛香与木质形成较清晰的轮廓。",
+      "consideration": "对锐利胡椒或琥珀木质敏感的人先试小样；办公室里不要把清新等同于低存在感。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "dior-sauvage-eau-de-parfum",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.dior.com/en_us/beauty/products/sauvage-eau-de-parfum-Y0785220.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "辛香调",
+      "香草",
+      "琥珀木质调"
+    ],
+    "stages": [
+      "先辨认佛手柑的果皮香与辛香感，开场仍有清新的一面。",
+      "展开时观察果皮清新感与香草的圆润感怎样交织，留意辛香是否仍然鲜明。",
+      "后段围绕香草与琥珀木质感试闻，留意甜暖感与干爽木质之间的平衡。"
+    ],
+    "wear": {
+      "audience": "喜欢柑橘木质，但也希望有香草甜暖感的人。",
+      "occasions": [
+        "微凉傍晚",
+        "晚餐社交"
+      ],
+      "impression": "佛手柑与香草形成清新、甜暖并置的印象。",
+      "consideration": "天气闷热或距离很近时先减少用量。EDP 的差别是香气表达，不只是把 EDT 加浓。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "dior-jadore",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.dior.com/en_us/beauty/products/j%E2%80%99adore-eau-de-parfum-Y0998031.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "依兰",
+      "大马士革玫瑰",
+      "大花茉莉",
+      "沙巴茉莉"
+    ],
+    "stages": [
+      "初闻可从依兰明亮、略带果香的花香印象切入，想象走近一束饱满的鲜花。",
+      "玫瑰与两种茉莉构成花束的主要层次。试着分辨花瓣的柔和感和白花的饱满感。",
+      "香气渐淡时，观察花束是否变得更柔和；留意茉莉或玫瑰还剩多少，以及贴近皮肤时的感受。"
+    ],
+    "wear": {
+      "audience": "喜欢完整花束、能接受茉莉和依兰等白花气息的人。",
+      "occasions": [
+        "白天聚会",
+        "庆祝晚餐"
+      ],
+      "impression": "明亮花束感，重点是依兰、玫瑰与茉莉之间的融合。",
+      "consideration": "庆祝晚餐或聚会可试试完整花束的感觉；若不习惯饱满白花，先少量试穿并观察后段。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-22577",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.hermes.com/us/en/product/terre-d-hermes-eau-de-toilette-V107748V0/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "葡萄柚",
+      "雪松",
+      "燧石矿物调"
+    ],
+    "stages": [
+      "初闻可留意葡萄柚的果皮清亮与微苦感，像揉开一小片新鲜柚皮。",
+      "展开后观察果皮香与干燥矿物感的对比。“燧石”可联想晒过太阳的石面，带一点干硬质感。",
+      "渐淡时可留意雪松的干爽木质感，像靠近干燥木材；再观察矿物感是否还在。"
+    ],
+    "wear": {
+      "audience": "喜欢干燥木质、微苦果皮和矿物气息的人。",
+      "occasions": [
+        "日常通勤",
+        "正式会面"
+      ],
+      "impression": "葡萄柚的明亮与雪松、燧石般的干燥感相互衬托。",
+      "consideration": "正式会面时可尝试它的干爽木质感；若偏爱奶甜或柔软花香，建议先试闻后段再决定。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-5550",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.hermes.com/us/en/product/twilly-d-hermes-eau-de-parfum-V107265V0/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "生姜",
+      "晚香玉",
+      "檀香"
+    ],
+    "stages": [
+      "先辨认生姜的辛暖与带甜意的联想，留意它与花香同时出现时的对比。",
+      "展开时观察晚香玉的饱满花香，与生姜的鲜明感如何融合；留意花香的厚度。",
+      "渐淡时可留意檀香的柔润、奶感木质联想，看看姜香与白花是否还在其中。"
+    ],
+    "wear": {
+      "audience": "喜欢白花，又想加入一点姜香反差的人。",
+      "occasions": [
+        "周末看展",
+        "晚餐约会"
+      ],
+      "impression": "生姜、晚香玉和柔润檀香构成辛暖花木感。",
+      "consideration": "晚香玉不一定适合所有白花爱好者，近距离活动前先少量试穿。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "jo-wood",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.com/scents/woody/wood-sage-sea-salt",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "黄葵籽",
+      "海盐调",
+      "鼠尾草"
+    ],
+    "stages": [
+      "黄葵籽带来柔和的开场，可联想略带麝香感的种子气息，留意那种圆润、细软的质感。",
+      "海盐调可以联想海边吹来的清爽空气，带一点矿物感，让香气显得更开阔。",
+      "鼠尾草带出草本与偏木质、大地感的收尾，像海风里混进岸边植物的气息。"
+    ],
+    "wear": {
+      "audience": "喜欢草本、海边空气和偏干燥木质联想的人。",
+      "occasions": [
+        "周末散步",
+        "休闲通勤"
+      ],
+      "impression": "清爽海边空气感与草本木质感结合，带一点干燥、开阔的气味印象。",
+      "consideration": "散步或休闲出门时可试试草本、海风般的感觉；办公时先少量，留意近距离的感受。"
+    },
+    "pyramid": {
+      "top": [
+        "黄葵籽"
+      ],
+      "heart": [
+        "海盐调"
+      ],
+      "base": [
+        "鼠尾草"
+      ]
+    }
+  },
+  {
+    "id": "jo-pear",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.com/product/25946/12553/colognes/english-pear-freesia-cologne",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "威廉梨",
+      "小苍兰",
+      "广藿香"
+    ],
+    "stages": [
+      "威廉梨提供成熟、带汁水感的果香，可以联想到刚切开的梨子，清甜里透着鲜润。",
+      "小苍兰让果香接到较清透的花香上，留意梨子的甜润感如何与花瓣感融合。",
+      "广藿香给后段带来较深的木质感，衬着梨子与花香；可以留意清甜和木质的变化。"
+    ],
+    "wear": {
+      "audience": "喜欢果香与花香结合，也能接受木质收尾的人。",
+      "occasions": [
+        "午后见面",
+        "日常通勤"
+      ],
+      "impression": "梨子的甜润、小苍兰的清透与广藿香的木质感相接。",
+      "consideration": "若只喜欢纯果香，试闻时应多等一会儿，确认自己是否喜欢后段的广藿香。"
+    },
+    "pyramid": {
+      "top": [
+        "威廉梨"
+      ],
+      "heart": [
+        "小苍兰"
+      ],
+      "base": [
+        "广藿香"
+      ]
+    }
+  },
+  {
+    "id": "jo-peony",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.co.uk/product/25946/27028/colognes/peony-blush-suede-cologne",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "红苹果",
+      "牡丹",
+      "麂绒调"
+    ],
+    "stages": [
+      "红苹果带来清脆、带汁水感的果香开场，作为花香前的一点明亮感。",
+      "牡丹形成花香主体，可联想柔和花瓣与一点清绿感，观察苹果的果香如何接到花香上。",
+      "麂绒调可联想手指轻触柔软绒面时的细腻质感，给花香添一点温暖的收尾。"
+    ],
+    "wear": {
+      "audience": "喜欢柔和花香、果香开场与柔软质感的人。",
+      "occasions": [
+        "白天约会",
+        "朋友小聚"
+      ],
+      "impression": "红苹果的清脆与牡丹、柔软麂绒感相衬。",
+      "consideration": "白天见面可试试果香与柔和花香的组合；试闻后段时，确认自己是否喜欢麂绒般的温暖感。"
+    },
+    "pyramid": {
+      "top": [
+        "红苹果"
+      ],
+      "heart": [
+        "牡丹"
+      ],
+      "base": [
+        "麂绒调"
+      ]
+    }
+  },
+  {
+    "id": "hf-12922",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.yslbeautyus.com/fragrance/womens-fragrances/libre/libre-eau-de-parfum/109YSL.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "薰衣草",
+      "橙花",
+      "麝香调",
+      "香草"
+    ],
+    "stages": [
+      "先观察薰衣草的草本清新与橙花的花香对比，像青绿枝叶中透出白色花朵。",
+      "展开时重点留意橙花与薰衣草相互融合的部分，辨认花香和草本哪个更吸引你。",
+      "渐淡时观察香草的温暖甜感与麝香的柔软感，留意草本、花香还有多少。"
+    ],
+    "wear": {
+      "audience": "喜欢橙花，也能接受草本气息和甜暖收尾的人。",
+      "occasions": [
+        "晚餐会面",
+        "微凉天气外出"
+      ],
+      "impression": "草本清新与橙花、香草的温暖感形成对比。",
+      "consideration": "微凉天气可尝试花香与甜暖感的组合；密闭空间先少量，观察橙花和草本的存在感。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-12795",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.yslbeautyus.com/fragrance/womens-fragrances/black-opium/black-opium-eau-de-parfum-spray/252YSL.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "咖啡",
+      "白花",
+      "香草"
+    ],
+    "stages": [
+      "初闻可围绕咖啡的烘焙联想与甜感辨认整体，像咖啡馆里同时飘着咖啡和甜点香。",
+      "展开后观察白花如何融入咖啡与香草之间，分辨花香是否让甜暖感多了层次。",
+      "渐淡时留意香草的温暖甜感，以及咖啡、花香还剩多少，观察后段是否符合自己的甜度偏好。"
+    ],
+    "wear": {
+      "audience": "喜欢咖啡、香草甜暖感，也愿意尝试其中花香的人。",
+      "occasions": [
+        "微凉晚间",
+        "咖啡馆聚会"
+      ],
+      "impression": "烘焙咖啡联想与白花、香草相结合，整体偏甜暖。",
+      "consideration": "微凉晚间可试试咖啡与香草的甜暖感；闷热或近距离办公时先减少用量。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-16094",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.chanel.com/us/fragrance/p/126270/chance-eau-tendre-eau-de-parfum-spray/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "茉莉",
+      "玫瑰",
+      "果香调"
+    ],
+    "stages": [
+      "初闻可以先找柔和的果香与花香，像走近一束带着清甜气息的鲜花；不必期待与淡香水版相同的柚子开场。",
+      "展开后重点辨认茉莉与玫瑰，留意白花的饱满感怎样与柔和花瓣感结合。",
+      "渐淡时观察花束是否变得更柔软、贴近皮肤，再分辨玫瑰花瓣和茉莉的气息各留下多少。"
+    ],
+    "wear": {
+      "audience": "喜欢柔和果香花束，尤其喜欢玫瑰和茉莉的人。",
+      "occasions": [
+        "白天约会",
+        "午后聚会"
+      ],
+      "impression": "果香衬着较饱满的玫瑰、茉莉花束，印象柔和而明亮。",
+      "consideration": "白天见面可从少量试起，观察茉莉的饱满感；不要仅凭名称相同就把 EDT 的气味体验套到这版。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-full-25596",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.chanel.com/us/fragrance/p/126290/chance-eau-tendre-eau-de-toilette-spray/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "葡萄柚与榅桲香调",
+      "茉莉",
+      "白麝香"
+    ],
+    "stages": [
+      "先找葡萄柚与榅桲香调的清亮果香。榅桲可以联想带酸甜感、介于苹果和梨之间的果实香气。",
+      "展开时留意茉莉怎样接住果香，让清亮的感觉带上花瓣的柔和；几种香气可能同时出现。",
+      "渐淡时观察白麝香的细软质感，像干净织物的柔和联想，再看看果香和茉莉还剩多少。"
+    ],
+    "wear": {
+      "audience": "喜欢清亮果香、柔和花香与干净麝香感的人。",
+      "occasions": [
+        "日常通勤",
+        "周末午餐"
+      ],
+      "impression": "清亮酸甜的果香与茉莉相接，白麝香添一层细软质感。",
+      "consideration": "办公室或午餐前先少量试穿，确认白麝香的洁净感符合偏好；它与 EDP 的核心香气描述不同。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-13685",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.chanel.com/us/fragrance/p/125530/n5-eau-de-parfum-spray/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "醛香调",
+      "柑橘调",
+      "五月玫瑰",
+      "茉莉",
+      "波旁香草"
+    ],
+    "stages": [
+      "初闻留意柑橘与醛香的明亮感。醛香可联想带皂感、闪亮而略抽象的气息，并非单一鲜花的味道。",
+      "展开时试着从融合的花束中辨认玫瑰与茉莉，观察它们与醛香交织后的圆润感。",
+      "渐淡时可寻找波旁香草的温暖感，看花束与皂感还留下多少；这里是试香线索，不是完整配方分层。"
+    ],
+    "wear": {
+      "audience": "喜欢醛香、皂感花束，也接受温暖香草余韵的人。",
+      "occasions": [
+        "正式晚餐",
+        "剧院观演"
+      ],
+      "impression": "明亮醛香包裹玫瑰与茉莉，香草使花束带一点温暖。",
+      "consideration": "正式场合可尝试这种完整花束感；醛香有鲜明个性，先试闻并确认后段，观演时尤其控制用量。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "dior-sauvage-elixir",
+    "concentration": "Elixir",
+    "sourceUrl": "https://www.dior.com/en_us/beauty/products/sauvage-elixir-Y0996460.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "葡萄柚",
+      "肉桂",
+      "肉豆蔻",
+      "小豆蔻",
+      "薰衣草",
+      "甘草",
+      "香根草",
+      "广藿香",
+      "琥珀调",
+      "木质调"
+    ],
+    "stages": [
+      "葡萄柚的果皮香与肉桂、肉豆蔻、小豆蔻相遇，先辨认清亮果皮和温热香料之间的反差。",
+      "薰衣草成为中段重点，可联想芳香草本，留意它如何穿过辛香，而不是只把它理解成柔和花香。",
+      "甘草的微甜、香根草与广藿香的干燥感，在琥珀和木质背景里相接；观察甜暖与干爽哪边更突出。"
+    ],
+    "wear": {
+      "audience": "喜欢鲜明辛香、草本薰衣草和深色木质感的人。",
+      "occasions": [
+        "微凉夜间外出",
+        "晚间聚会"
+      ],
+      "impression": "热香料衬着薰衣草，收尾带甘草、琥珀与干燥木质感。",
+      "consideration": "晚间可试它鲜明的辛香轮廓；密闭空间先少量，Elixir 的香气结构应单独试闻，不按 EDT 的经验判断。"
+    },
+    "pyramid": {
+      "top": [
+        "葡萄柚",
+        "肉桂",
+        "肉豆蔻",
+        "小豆蔻"
+      ],
+      "heart": [
+        "薰衣草"
+      ],
+      "base": [
+        "琥珀调",
+        "甘草",
+        "香根草",
+        "广藿香",
+        "木质调"
+      ]
+    }
+  },
+  {
+    "id": "jo-lime",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.com/our-stories/lime-basil-mandarin",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "青柠",
+      "柑橘",
+      "罗勒",
+      "白百里香",
+      "琥珀木"
+    ],
+    "stages": [
+      "柑橘带来明亮、带汁水联想的开场；结合青柠的果皮感，可以想象刚切开的柑橘旁还有绿叶。",
+      "罗勒把清新果香带向草本，略有辛锐感，像揉开一片芳香叶子；白百里香增加草本层次。",
+      "琥珀木为果皮和草本气息提供偏干燥、温暖的底色，观察清亮感渐淡后留下的木质轮廓。"
+    ],
+    "wear": {
+      "audience": "喜欢柑橘果皮，也欣赏罗勒等芳香草本的人。",
+      "occasions": [
+        "白天通勤",
+        "户外午后"
+      ],
+      "impression": "明亮柑橘与辛绿草本相衬，木质底色让清新感更干爽。",
+      "consideration": "适合探索清爽草本的日常穿香；若期待甜果汁般的香气，先确认自己能接受罗勒的辛绿感。"
+    },
+    "pyramid": {
+      "top": [
+        "柑橘"
+      ],
+      "heart": [
+        "罗勒"
+      ],
+      "base": [
+        "琥珀木"
+      ]
+    }
+  },
+  {
+    "id": "jo-wild-bluebell",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.co.uk/our-stories/wild-bluebell?search=wild+bluebell&search_type=standard_viewcontent",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "蓝风铃香调",
+      "柿子",
+      "白麝香"
+    ],
+    "stages": [
+      "蓝风铃香调可联想带露水的绿叶与花朵，清绿里带一点丁香花蕾般的辛香，而非浓甜花束。",
+      "柿子香调增加柔和果香，可联想带奶润感的桃子气息，让清绿花香多一点圆润。",
+      "白麝香带来细软的余韵，像柔和织物的联想；留意果香和清绿感是否仍在其中。"
+    ],
+    "wear": {
+      "audience": "喜欢带露水联想的花香、柔和果香与麝香质感的人。",
+      "occasions": [
+        "公园散步",
+        "白天见面"
+      ],
+      "impression": "清绿花香接上圆润果香，整体偏柔和、带湿润空气联想。",
+      "consideration": "散步或白天见面可试这种清绿感；蓝风铃是调香形成的香调，实闻不一定等同于真实花朵。"
+    },
+    "pyramid": {
+      "top": [
+        "蓝风铃香调"
+      ],
+      "heart": [
+        "柿子"
+      ],
+      "base": [
+        "白麝香"
+      ]
+    }
+  },
+  {
+    "id": "jo-blackberry-bay",
+    "concentration": "Cologne",
+    "sourceUrl": "https://www.jomalone.eu/de/en/product/25946/23540/colognes/blackberry-bay-cologne",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "黑莓",
+      "月桂叶",
+      "雪松"
+    ],
+    "stages": [
+      "黑莓带来酸甜、带汁水的开场，同时有枝叶的清绿联想；重点不只是甜，也有果皮般的微酸。",
+      "月桂叶香调把果香拉向绿色植物感，像采果时手边的枝叶，让浆果气息更清爽。",
+      "雪松带出干燥木材的质感，留意果香如何与木质相衬，而不是一直停留在甜浆果上。"
+    ],
+    "wear": {
+      "audience": "喜欢酸甜浆果，同时希望有绿叶和干爽木质感的人。",
+      "occasions": [
+        "周末出游",
+        "休闲通勤"
+      ],
+      "impression": "酸甜黑莓衬着清绿枝叶，最后留下较干爽的木质感。",
+      "consideration": "周末出游可试它的果叶组合；若只喜欢甜浆果，试闻时多等一会儿，确认月桂叶和雪松也合心意。"
+    },
+    "pyramid": {
+      "top": [
+        "黑莓"
+      ],
+      "heart": [
+        "月桂叶"
+      ],
+      "base": [
+        "雪松"
+      ]
+    }
+  },
+  {
+    "id": "hf-3123",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.hermes.com/us/en/product/un-jardin-sur-le-nil-eau-de-toilette-V26993/",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "青芒果",
+      "莲花",
+      "西克莫木"
+    ],
+    "stages": [
+      "初闻可从青芒果切入，联想尚未熟透的果实与绿色果皮，不把它预想成熟芒果汁的甜味。",
+      "展开时留意莲花的清透花香与青绿果香如何交织，想象水边植物，而非饱满甜花束。",
+      "渐淡时寻找西克莫木带来的树木气息，观察它与清绿、水润联想的联系，不预设固定持续时间。"
+    ],
+    "wear": {
+      "audience": "偏爱青绿果香、清透花香与木质感的人。",
+      "occasions": [
+        "暖天散步",
+        "白天休闲"
+      ],
+      "impression": "青芒果的绿意与莲花、树木气息相衬，带水边植物联想。",
+      "consideration": "暖天散步可以探索它的清绿感；喜欢成熟甜芒果的人先试闻，这款的重点是青芒果而非果汁甜香。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-3430",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.yslbeauty.com.au/y-eau-de-parfum/3614274057348.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "鼠尾草",
+      "天竺葵",
+      "木质调",
+      "零陵香豆"
+    ],
+    "stages": [
+      "初闻先寻找鼠尾草与天竺葵的清爽芳香感，像揉开芳香叶片，清绿中带一点花香。",
+      "展开后观察草本与温暖木质如何衔接，哪部分更清凉、哪部分更厚实，可以分别对照。",
+      "渐淡时留意零陵香豆的甜暖联想，与木质气息形成的柔和感；它并不等同于一支纯清新香。"
+    ],
+    "wear": {
+      "audience": "喜欢清爽草本，又接受木质与甜暖收尾的人。",
+      "occasions": [
+        "日常社交",
+        "下班聚会"
+      ],
+      "impression": "草本芳香与温暖木质相接，零陵香豆添一点圆润甜感。",
+      "consideration": "通勤转入聚会时可尝试这类清爽与暖意并存的香气；近距离办公先少量，并确认后段甜度。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-5757",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.yslbeautyus.com/fragrance/womens-fragrances/mon-paris/mon-paris-eau-de-parfum/4150YSL.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "红色浆果",
+      "曼陀罗花香调",
+      "白麝香",
+      "广藿香"
+    ],
+    "stages": [
+      "先观察红色浆果的酸甜果香，像一碗新鲜浆果的联想，再辨认它与花香是否同时出现。",
+      "曼陀罗花香调构成白花般的主体，可以从饱满花瓣的感觉理解，留意果香怎样衬着花香。",
+      "渐淡时留意白麝香的柔软与广藿香的深色木质感，看看甜果香有没有被这些底色平衡。"
+    ],
+    "wear": {
+      "audience": "喜欢甜润浆果和白花，也能接受广藿香底色的人。",
+      "occasions": [
+        "约会晚餐",
+        "朋友聚会"
+      ],
+      "impression": "甜润果香与白花融合，麝香和广藿香带来柔软而较深的底色。",
+      "consideration": "约会可探索果香花束的甜润感；若不喜欢广藿香，别只闻开场就决定，先等余韵展开。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-24810",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.lancome-usa.com/fragrance/fragrance-by-collection/la-vie-est-belle/la-vie-est-belle-eau-de-parfum/3614273749381.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "鸢尾",
+      "广藿香",
+      "香草",
+      "糖丝甜香"
+    ],
+    "stages": [
+      "初闻可同时留意鸢尾的柔粉感和甜香，像细腻粉末与甜点气息并置，并非单纯鲜花的清香。",
+      "展开时观察鸢尾的粉感怎样与广藿香的较深气息交织，看看甜度之外是否还有干燥感。",
+      "渐淡时重点辨认香草与糖丝般的甜意，再观察广藿香是否仍在其中，帮助判断自己喜欢的甜度。"
+    ],
+    "wear": {
+      "audience": "喜欢鸢尾粉感、香草甜香与广藿香层次的人。",
+      "occasions": [
+        "秋冬聚会",
+        "晚间约会"
+      ],
+      "impression": "柔粉鸢尾与糖甜、香草相融，广藿香让甜香带一些深度。",
+      "consideration": "凉天聚会可尝试这种甜暖感；闷热天气和小会议室里先减少用量，尤其留意糖甜是否过重。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-16711",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.lancome-usa.com/fragrance/fragrance-by-collection/idole/idole-eau-de-parfum/LAN387.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "梨",
+      "粉红胡椒",
+      "玫瑰",
+      "茉莉",
+      "白麝香",
+      "香草",
+      "广藿香",
+      "雪松"
+    ],
+    "stages": [
+      "佛手柑和梨带来明亮果香，粉红胡椒加一点轻微辛香；可以对照果皮的清亮与梨的汁水感。",
+      "玫瑰与茉莉构成花香主体，留意玫瑰的柔和花瓣感与茉莉的白花感怎样融合。",
+      "白麝香、香草与雪松、广藿香相接，观察柔软甜暖与干燥木质之间的平衡，而不只看甜度。"
+    ],
+    "wear": {
+      "audience": "喜欢玫瑰、茉莉，且希望花香带清亮果香开场的人。",
+      "occasions": [
+        "白天会面",
+        "工作日晚餐"
+      ],
+      "impression": "清亮果香引出玫瑰与茉莉，余韵带柔软麝香和木质感。",
+      "consideration": "白天会面可试花香的明亮一面；近距离使用先少量，等香草和木质展开后再判断是否合适。"
+    },
+    "pyramid": {
+      "top": [
+        "佛手柑",
+        "梨",
+        "粉红胡椒"
+      ],
+      "heart": [
+        "玫瑰",
+        "茉莉"
+      ],
+      "base": [
+        "白麝香",
+        "香草",
+        "广藿香",
+        "雪松"
+      ]
+    }
+  },
+  {
+    "id": "hf-16021",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.giorgioarmanibeauty-usa.com/fragrances-womens-fragrances-perfume-my-way-my-way-eau-de-parfum-the-new-feminine-fragrance/3614273875752.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "橙花",
+      "晚香玉",
+      "茉莉",
+      "雪松",
+      "香草",
+      "白麝香"
+    ],
+    "stages": [
+      "佛手柑的果皮香和橙花相接，先找清亮与花香并置的感觉，而不是只期待纯柑橘开场。",
+      "晚香玉与茉莉构成饱满白花主体，可以联想丰盛的白色花束，观察花香的圆润程度。",
+      "雪松的木质与香草、白麝香交织，留意白花变淡后，甜暖和柔软的质感怎样留下来。"
+    ],
+    "wear": {
+      "audience": "喜欢饱满晚香玉与茉莉，也接受香草暖意的人。",
+      "occasions": [
+        "庆祝聚餐",
+        "晚间约会"
+      ],
+      "impression": "明亮橙花过渡到饱满白花，香草与麝香使收尾柔和甜暖。",
+      "consideration": "庆祝场合可尝试白花的丰盛感；在餐桌或车内先少量，确认自己和同伴能接受晚香玉的存在感。"
+    },
+    "pyramid": {
+      "top": [
+        "佛手柑",
+        "橙花"
+      ],
+      "heart": [
+        "晚香玉",
+        "茉莉"
+      ],
+      "base": [
+        "雪松",
+        "香草",
+        "白麝香"
+      ]
+    }
+  },
+  {
+    "id": "hf-21769",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.giorgioarmanibeauty-usa.com/fragrances/mens-cologne/acqua-di-gio/acqua-di-gio-eau-de-toilette/A005.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "海洋调",
+      "佛手柑",
+      "橙花",
+      "青柑橘",
+      "迷迭香",
+      "雪松",
+      "广藿香"
+    ],
+    "stages": [
+      "初闻可辨认佛手柑、青柑橘与海洋调，像果皮清香遇到潮湿海风；海洋调是气味联想。",
+      "展开时留意橙花与迷迭香，看看花香、草本怎样混在清爽背景里，不必等它们严格轮流出现。",
+      "渐淡时寻找雪松和广藿香的木质感，观察清爽背景下是否多了一点干燥、较深的气息。"
+    ],
+    "wear": {
+      "audience": "喜欢柑橘、海洋联想和草本木质的人。",
+      "occasions": [
+        "暖天外出",
+        "休闲通勤"
+      ],
+      "impression": "果皮与海风般的清爽感，衬着草本和木质轮廓。",
+      "consideration": "暖天可试这种清爽结构；先确认自己喜欢海洋调，且不要与同系列 Parfum 或 Profondo 的资料混用。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-full-24495",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.armanibeauty.co.uk/perfume/womens-perfumes/si/si-passione-eau-de-parfum---refillable/3614271994721.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "黑加仑",
+      "梨",
+      "茉莉",
+      "玫瑰",
+      "雪松"
+    ],
+    "stages": [
+      "黑加仑和梨带来果香开场，可对照黑加仑的深色酸甜与梨的清甜汁水感，寻找自己更在意的部分。",
+      "茉莉与玫瑰带出花香主体，留意果香如何衬托白花和花瓣气息，而不是完全消失。",
+      "雪松提供木质收尾，像干燥木材的联想，观察它怎样让果香花束的轮廓更清楚。"
+    ],
+    "wear": {
+      "audience": "喜欢黑加仑果香与玫瑰、茉莉花束的人。",
+      "occasions": [
+        "晚餐约会",
+        "节日聚会"
+      ],
+      "impression": "明亮而带酸甜的果香，接上花束与干爽雪松。",
+      "consideration": "聚会可探索果香花束的鲜明感；这是经典 Sì Passione EDP，别套用 Intense 版的香草说明。"
+    },
+    "pyramid": {
+      "top": [
+        "黑加仑",
+        "梨"
+      ],
+      "heart": [
+        "茉莉",
+        "玫瑰"
+      ],
+      "base": [
+        "雪松"
+      ]
+    }
+  },
+  {
+    "id": "hf-4504",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.gucci.com/us/en/st/stories/article/pre-fall-2017-bloom-fragrance-qa-alberto-morillas",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "晚香玉",
+      "茉莉花蕾",
+      "使君子"
+    ],
+    "stages": [
+      "初闻即可留意完整白花主体。品牌说明这款不按经典金字塔逐层展开，不必等待一个独立柑橘开场。",
+      "晚香玉、茉莉花蕾与使君子共同形成花园般的香气，观察其中较鲜绿与较柔粉的部分。",
+      "渐淡时仍以花香为观察重点，留意花束如何变得更柔和，以及较鲜绿和较柔粉的感觉各留下多少。"
+    ],
+    "wear": {
+      "audience": "喜欢完整白花花束，尤其欣赏晚香玉和茉莉的人。",
+      "occasions": [
+        "花园聚会",
+        "晚餐约会"
+      ],
+      "impression": "白花香气较完整地呈现，带植物与柔粉的联想。",
+      "consideration": "喜欢白花可以直接关注花束本身；如果更偏爱柑橘开场，可对照 Bloom EDT，二者结构不同。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-full-14626",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.gucci.com/us/en/pr/beauty/fragrances/fragrances-for-women/gucci-bloom/gucci-bloom-100ml-eau-de-toilette-p-670035999990099",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "橙花油香调",
+      "柠檬",
+      "柑橘",
+      "佛手柑",
+      "茉莉花蕾",
+      "晚香玉",
+      "使君子",
+      "橙花",
+      "檀香",
+      "木质调",
+      "鸢尾",
+      "安息香",
+      "麝香"
+    ],
+    "stages": [
+      "橙花油香调与柠檬、柑橘、佛手柑一起带来明亮开场，可以从果皮和清绿花香的感觉切入。",
+      "茉莉花蕾、晚香玉、使君子与橙花构成花束，观察柑橘之后白花的饱满感怎样展开。",
+      "檀香、木质与鸢尾、安息香、麝香交织，留意较柔粉、树脂甜暖与柔软木质的收尾。"
+    ],
+    "wear": {
+      "audience": "喜欢白花，但也希望有明亮柑橘开场的人。",
+      "occasions": [
+        "白天约会",
+        "周末看展"
+      ],
+      "impression": "果皮清新感引出白花花束，余韵带柔粉与温暖木质。",
+      "consideration": "白天可探索柑橘与白花的衔接；EDT 不等于单纯更淡，后段的安息香和木质也值得单独试闻。"
+    },
+    "pyramid": {
+      "top": [
+        "橙花油香调",
+        "柠檬",
+        "柑橘",
+        "佛手柑"
+      ],
+      "heart": [
+        "茉莉花蕾",
+        "晚香玉",
+        "使君子",
+        "橙花"
+      ],
+      "base": [
+        "檀香",
+        "木质调",
+        "鸢尾",
+        "安息香",
+        "麝香"
+      ]
+    }
+  },
+  {
+    "id": "hf-4121",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.gucci.com/us/en/pr/beauty/fragrances/fragrances-for-men/gucci-guilty-for-men/gucci-guilty-pour-homme-90ml-eau-de-parfum-p-613748999990099",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "玫瑰",
+      "辣椒香调",
+      "橙花",
+      "橙花油",
+      "薰衣草",
+      "广藿香",
+      "雪松"
+    ],
+    "stages": [
+      "玫瑰与辣椒香调形成开场反差，一边是花瓣感，一边是辛热联想，不是经典柑橘式的清新。",
+      "橙花、橙花油与薰衣草把花香接向芳香草本，留意清绿感怎样穿过前面的辛香。",
+      "广藿香与雪松带出较干燥的木质底色，观察花香和辛香在收尾时还剩多少。"
+    ],
+    "wear": {
+      "audience": "愿意尝试玫瑰与辛香，同时喜欢草本木质的人。",
+      "occasions": [
+        "晚间社交",
+        "微凉天气外出"
+      ],
+      "impression": "玫瑰、辛香与草本形成对比，收尾偏干爽木质。",
+      "consideration": "晚间可尝试这种花香与辛香的反差；请按 Pour Homme EDP 试闻，不以同名 EDT 的开场作为预期。"
+    },
+    "pyramid": {
+      "top": [
+        "玫瑰",
+        "辣椒香调"
+      ],
+      "heart": [
+        "橙花",
+        "橙花油",
+        "薰衣草"
+      ],
+      "base": [
+        "广藿香",
+        "雪松"
+      ]
+    }
+  },
+  {
+    "id": "hf-879",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.prada-beauty.com/fragrance/paradoxe-eau-de-parfum/MPL01610.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "橙花花蕾",
+      "琥珀调（Ambrofix）",
+      "麝香调（Serenolide）"
+    ],
+    "stages": [
+      "橙花花蕾带来清新白花感，可联想尚未完全开放的花朵；留意花香中的清绿与明亮。",
+      "琥珀调形成温暖的中段联想，可以从略干燥、带暖意的气息理解，观察它与清新橙花形成的对比。",
+      "麝香调带来柔软、贴肤的联想，观察温暖花香如何逐渐变得细腻；实际感受与持续时间因人而异。"
+    ],
+    "wear": {
+      "audience": "喜欢橙花，也希望有温暖琥珀与柔软麝香感的人。",
+      "occasions": [
+        "下班约会",
+        "微凉晚餐"
+      ],
+      "impression": "清新橙花与温暖琥珀相衬，麝香添一层细软质感。",
+      "consideration": "微凉晚餐可探索橙花和暖意的组合；若偏爱纯清绿花香，先确认展开后的温暖感适合自己。"
+    },
+    "pyramid": {
+      "top": [
+        "橙花花蕾"
+      ],
+      "heart": [
+        "琥珀调（Ambrofix）"
+      ],
+      "base": [
+        "麝香调（Serenolide）"
+      ]
+    }
+  },
+  {
+    "id": "hf-14097",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.prada-beauty.com/fragrance/lhomme-prada/lhomme-prada-eau-de-toilette/MPL01352.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "鸢尾",
+      "琥珀调",
+      "橙花油",
+      "黑胡椒",
+      "天竺葵",
+      "广藿香"
+    ],
+    "stages": [
+      "初闻可对照橙花油的清绿与黑胡椒的辛锐，看看它们怎样融入带粉感的整体，而不预设固定先后。",
+      "展开时重点观察鸢尾与琥珀调：可以联想细腻粉末与温暖气息，留意天竺葵的芳香感。",
+      "渐淡时观察粉感、暖意与广藿香的较深气息如何留下，帮助判断这种洁净而温暖的印象是否合口味。"
+    ],
+    "wear": {
+      "audience": "喜欢鸢尾粉感、芳香草本与温暖琥珀感的人。",
+      "occasions": [
+        "办公室通勤",
+        "白天正式会面"
+      ],
+      "impression": "柔粉鸢尾与清绿芳香、温暖琥珀交织，带洁净联想。",
+      "consideration": "通勤可试粉感与清绿的组合；洁净联想不代表存在感低，会议室先少量，并确认自己喜欢鸢尾。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-25646",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://us.burberry.com/her-eau-de-parfum-100ml-p40804591",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "红色与深色浆果",
+      "紫罗兰",
+      "茉莉",
+      "白木香",
+      "琥珀调"
+    ],
+    "stages": [
+      "先辨认红色与深色浆果的果香，像酸甜浆果混合在一起，观察甜润和微酸哪部分更突出。",
+      "展开时留意紫罗兰与茉莉怎样融入浆果，观察柔粉花瓣感和白花感带来的变化。",
+      "渐淡时可寻找白木香与琥珀的柔和暖意，留意浆果甜香是否仍在其中，不把 Elixir 的资料套进来。"
+    ],
+    "wear": {
+      "audience": "喜欢浆果果香，也接受花香和柔和暖意的人。",
+      "occasions": [
+        "朋友小聚",
+        "周末约会"
+      ],
+      "impression": "浆果甜润感衬着紫罗兰、茉莉，木质琥珀带来柔和底色。",
+      "consideration": "休闲约会可尝试浆果的甜润感；闷热或拥挤环境先少量，这里对应经典 Her EDP，非 Elixir。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-22500",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.versace.com/us/en/men/accessories/fragrances-body-care/dylan-blue-pour-homme/dylan-blue-pour-homme-edt-50-ml-blue/R721008-R050MLS_RNUL.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "水生调",
+      "无花果叶",
+      "佛手柑",
+      "葡萄柚",
+      "紫罗兰叶",
+      "广藿香",
+      "纸莎草",
+      "黑胡椒",
+      "降龙涎香醚",
+      "麝香",
+      "零陵香豆",
+      "藏红花",
+      "乳香"
+    ],
+    "stages": [
+      "佛手柑、葡萄柚与水生调带来清亮开场，无花果叶添一层绿色植物感，像果皮清香旁还有湿润空气。",
+      "紫罗兰叶、纸莎草与胡椒让气味带绿意和辛香，广藿香与降龙涎香醚增加较干燥的木质琥珀轮廓。",
+      "麝香、零陵香豆、藏红花与乳香交织，留意柔软甜暖和树脂感，不要只以开场的清新来判断整支。"
+    ],
+    "wear": {
+      "audience": "喜欢清爽开场，同时欣赏辛香、木质与树脂感的人。",
+      "occasions": [
+        "白天社交",
+        "下班聚会"
+      ],
+      "impression": "水生柑橘与清绿叶片引出辛香木质，底色带甜暖树脂感。",
+      "consideration": "可尝试从白天社交穿到聚会；近距离先少量，确认后段乳香和甜暖感符合偏好。"
+    },
+    "pyramid": {
+      "top": [
+        "水生调",
+        "无花果叶",
+        "佛手柑",
+        "葡萄柚"
+      ],
+      "heart": [
+        "紫罗兰叶",
+        "广藿香",
+        "纸莎草",
+        "黑胡椒",
+        "降龙涎香醚"
+      ],
+      "base": [
+        "麝香",
+        "零陵香豆",
+        "藏红花",
+        "乳香"
+      ]
+    }
+  },
+  {
+    "id": "hf-19055",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.versace.com/us/en/bright-crystal-edt-50-ml/R510030-R050MLS.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "柚子",
+      "冰凉香调",
+      "石榴",
+      "牡丹",
+      "木兰",
+      "莲花",
+      "桃花心木",
+      "琥珀调",
+      "麝香"
+    ],
+    "stages": [
+      "柚子与石榴带来清亮果香，冰凉香调强调清爽联想；可以想象果皮与微酸果汁，不代表真的降低温度。",
+      "牡丹、木兰和莲花构成较清透的花束，观察果香怎样与花瓣、水润联想结合。",
+      "桃花心木、琥珀与麝香给花香添柔和暖意，留意清透花束变淡后的木质与细软质感。"
+    ],
+    "wear": {
+      "audience": "喜欢清亮果香和清透花束，接受柔和麝香感的人。",
+      "occasions": [
+        "白天通勤",
+        "春夏午后见面"
+      ],
+      "impression": "柚子和石榴的清亮，衬着牡丹、木兰与莲花的柔和花束。",
+      "consideration": "白天可探索清亮果香与花香的组合；先试闻后段麝香，不要仅凭冰凉香调就预期完全不甜。"
+    },
+    "pyramid": {
+      "top": [
+        "柚子",
+        "冰凉香调",
+        "石榴"
+      ],
+      "heart": [
+        "牡丹",
+        "木兰",
+        "莲花"
+      ],
+      "base": [
+        "桃花心木",
+        "琥珀调",
+        "麝香"
+      ]
+    }
+  },
+  {
+    "id": "hf-6579",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.dolcegabbana.com/en-kh/beauty/perfumes-for-her/dolceandgabbana-devotion-edp-gift-set---VT032LVT0009V000.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "糖渍柑橘",
+      "橙花",
+      "香草"
+    ],
+    "stages": [
+      "糖渍柑橘把果皮香和糖甜放在一起，可以联想甜点上的糖渍柠檬皮，带一点明亮的酸甜。",
+      "橙花让甜柑橘接到白花气息上，留意花香有没有让甜点般的联想多一层清新。",
+      "香草带来温暖甜润的收尾，观察糖渍果皮与橙花还剩多少，判断整体甜度是否合自己的口味。"
+    ],
+    "wear": {
+      "audience": "喜欢糖渍柑橘、橙花与香草甜点联想的人。",
+      "occasions": [
+        "微凉午后",
+        "甜品店约会"
+      ],
+      "impression": "糖渍柑橘的明亮甜香，接上橙花和温暖香草。",
+      "consideration": "凉天可试糖渍果皮与香草的组合；这是经典 Devotion EDP，不采用 Intense 版榛子的说明。"
+    },
+    "pyramid": {
+      "top": [
+        "糖渍柑橘"
+      ],
+      "heart": [
+        "橙花"
+      ],
+      "base": [
+        "香草"
+      ]
+    }
+  },
+  {
+    "id": "hf-full-3625",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.chloe.com/en-us/p/fragrances/eau-de-parfum/CHCA608500.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "牡丹",
+      "玫瑰",
+      "木兰",
+      "雪松",
+      "龙涎香调"
+    ],
+    "stages": [
+      "牡丹带来柔和花香开场，可以联想轻柔花瓣与一点鲜绿感，看看它是否让你想到干净花束。",
+      "玫瑰与木兰构成花香中心，留意玫瑰花瓣的层次与木兰较圆润的花香怎样融合。",
+      "雪松与龙涎香调衬托花束余韵，可从干爽木质和温暖柔和的质感理解；香调名称不等于原料清单。"
+    ],
+    "wear": {
+      "audience": "喜欢玫瑰花束、柔和花瓣和干爽木质感的人。",
+      "occasions": [
+        "白天会面",
+        "日常通勤"
+      ],
+      "impression": "牡丹引出玫瑰、木兰花束，木质底色让柔和花香有清晰轮廓。",
+      "consideration": "白天会面可试这种玫瑰花束感；先少量观察近距离表现，此处是经典 EDP，不是 Lumineuse 或 Intense。"
+    },
+    "pyramid": {
+      "top": [
+        "牡丹"
+      ],
+      "heart": [
+        "玫瑰",
+        "木兰"
+      ],
+      "base": [
+        "雪松",
+        "龙涎香调"
+      ]
+    }
+  },
+  {
+    "id": "hf-5015",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.marcjacobs.com/us-en/daisy-eau-de-toilette-50-ml/31655513027-000.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "野草莓与浆果香调",
+      "紫罗兰",
+      "茉莉",
+      "木质调"
+    ],
+    "stages": [
+      "初闻可以找野草莓、浆果与清绿花叶的联想，观察果香的明亮和甜度，不把它预想成浓甜草莓酱。",
+      "展开时留意紫罗兰的柔和花瓣感与茉莉的白花气息，看看果香怎样融入花束。",
+      "渐淡时观察花香与柔和木质的关系，留意果香是否还在，以及花瓣感是否变得更细软，不必等待明显的分段转折。"
+    ],
+    "wear": {
+      "audience": "喜欢明亮浆果、柔和紫罗兰与茉莉花香的人。",
+      "occasions": [
+        "周末出游",
+        "白天朋友见面"
+      ],
+      "impression": "明亮果香与柔和花瓣结合，带轻松的花果联想。",
+      "consideration": "出游可试明亮花果感；请对应经典 Daisy EDT，不与 Eau So Fresh、Love 或其他雏菊系列混用。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-14863",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://us.viktor-rolf.com/fragrance/flowerbomb-eau-de-parfum-by-viktor-rolf-VKR_002.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "玫瑰",
+      "茉莉",
+      "小苍兰",
+      "广藿香",
+      "香草"
+    ],
+    "stages": [
+      "初闻先观察花香与甜暖感的整体，像丰盛花束旁带着甜香；先判断花瓣感与甜意哪一面更突出。",
+      "展开时从玫瑰、茉莉与小苍兰的花束中找层次，留意柔和花瓣感与饱满白花的融合。",
+      "渐淡时寻找广藿香与香草的对比，观察较深木质感和温暖甜感怎样衬着花香。"
+    ],
+    "wear": {
+      "audience": "喜欢饱满花束、香草甜暖感与广藿香层次的人。",
+      "occasions": [
+        "秋冬晚餐",
+        "庆祝聚会"
+      ],
+      "impression": "花束与香草甜暖融合，广藿香增加较深的底色。",
+      "consideration": "凉天聚会可探索丰盛花束感；不喜欢甜暖或广藿香的人先完整试闻，闷热室内尤其控制用量。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-12625",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.tomfordbeauty.com/products/oud-wood-eau-de-parfum?dwvar_T1-OUD-WOOD_color=OC",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "小豆蔻",
+      "花梨木",
+      "沉香调",
+      "檀香",
+      "香根草",
+      "零陵香豆",
+      "琥珀调"
+    ],
+    "stages": [
+      "先留意小豆蔻的芳香辛意与花梨木的木质联想，像闻到带香料气息的木材，观察干爽与暖意。",
+      "展开时围绕沉香调、檀香和香根草试闻，分辨较深木质、柔润木质与根系般干燥感。",
+      "渐淡时留意零陵香豆与琥珀的甜暖底色，观察木质轮廓怎样被柔化，而不预设特定烟熏强度。"
+    ],
+    "wear": {
+      "audience": "喜欢木质香料，也接受圆润琥珀与甜暖余韵的人。",
+      "occasions": [
+        "微凉正式会面",
+        "晚间小聚"
+      ],
+      "impression": "辛香木质与柔润檀香相衬，零陵香豆和琥珀添暖意。",
+      "consideration": "正式会面可探索木质轮廓；沉香调的表达很多，先试闻这版 EDP，不用天然沉香或 Parfum 的经验代替。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-11109",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.tomfordbeauty.com/products/lost-cherry-eau-de-parfum?variant=53030230065365",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "黑樱桃与樱桃酒香调",
+      "苦杏仁",
+      "玫瑰",
+      "秘鲁香脂",
+      "烘烤零陵香豆",
+      "木质调"
+    ],
+    "stages": [
+      "初闻可辨认樱桃酒般的甜润与苦杏仁联想，像樱桃甜点旁有杏仁，留意甜意中的微苦对比。",
+      "展开时观察玫瑰花香怎样融入樱桃，不只关注水果甜度，也试着寻找花瓣带来的变化。",
+      "渐淡时留意秘鲁香脂、烘烤零陵香豆与木质的暖意，看看果香是否留下较甜润、树脂般的余韵。"
+    ],
+    "wear": {
+      "audience": "喜欢樱桃酒、杏仁甜点联想和温暖树脂感的人。",
+      "occasions": [
+        "微凉夜间约会",
+        "晚间聚会"
+      ],
+      "impression": "樱桃与杏仁形成甜苦对比，花香、香脂和木质增加层次。",
+      "consideration": "晚间可试甜苦果香的反差；若偏爱鲜果清香，先确认自己喜欢酒香和杏仁联想，再决定是否穿出门。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-1079",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.byredo.com/uk_en/p/blanche-eau-de-parfum?sku=0065212494",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "醛香调",
+      "千叶玫瑰",
+      "牡丹",
+      "紫罗兰",
+      "麝香",
+      "檀香"
+    ],
+    "stages": [
+      "醛香与千叶玫瑰形成明亮开场，可以联想洗净织物或皂香与花瓣的结合，先确认自己是否喜欢这类洁净感。",
+      "牡丹与紫罗兰把气味带向柔和花瓣与略带粉感的层次，留意皂感背景是否仍然清晰。",
+      "麝香与檀香带来细软、柔润木质的收尾，像织物逐渐贴近皮肤的联想，观察花香还剩多少。"
+    ],
+    "wear": {
+      "audience": "喜欢皂感、干净织物联想及柔和粉感花香的人。",
+      "occasions": [
+        "日常通勤",
+        "居家阅读"
+      ],
+      "impression": "明亮皂感衬着柔和花瓣，麝香与檀香使余韵细软。",
+      "consideration": "通勤或居家可探索洁净织物感；皂感并非人人都喜欢，办公室先少量，也别把洁净等同于没有存在感。"
+    },
+    "pyramid": {
+      "top": [
+        "醛香调",
+        "千叶玫瑰"
+      ],
+      "heart": [
+        "牡丹",
+        "紫罗兰"
+      ],
+      "base": [
+        "麝香",
+        "檀香"
+      ]
+    }
+  },
+  {
+    "id": "hf-14824",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.byredo.com/us_en/p/gypsy-water-eau-de-parfum",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "杜松子",
+      "柠檬",
+      "胡椒",
+      "焚香",
+      "鸢尾",
+      "松针",
+      "琥珀调",
+      "檀香",
+      "香草"
+    ],
+    "stages": [
+      "佛手柑、柠檬与杜松子、胡椒带来清亮芳香，像果皮清新感混入带辛意的针叶植物气息。",
+      "焚香、鸢尾与松针形成中段对比，可以辨认树脂烟气联想、柔粉感和清绿针叶感。",
+      "琥珀、檀香与香草带出柔润暖意，观察清绿气息怎样与木质甜暖并置，而不是只期待森林清香。"
+    ],
+    "wear": {
+      "audience": "喜欢针叶、焚香与柑橘，又接受香草木质感的人。",
+      "occasions": [
+        "周末看展",
+        "微凉散步"
+      ],
+      "impression": "清亮芳香与松针、焚香交织，檀香和香草使余韵温暖。",
+      "consideration": "微凉散步可试清绿与暖意的对比；偏爱纯森林气息的人先确认香草甜感是否适合自己。"
+    },
+    "pyramid": {
+      "top": [
+        "佛手柑",
+        "杜松子",
+        "柠檬",
+        "胡椒"
+      ],
+      "heart": [
+        "焚香",
+        "鸢尾",
+        "松针"
+      ],
+      "base": [
+        "琥珀调",
+        "檀香",
+        "香草"
+      ]
+    }
+  },
+  {
+    "id": "hf-10504",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-philosykos-philop75cv1",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "无花果叶",
+      "无花果树汁",
+      "无花果木",
+      "白雪松",
+      "黑胡椒"
+    ],
+    "stages": [
+      "初闻可以寻找无花果叶的青绿与树汁联想，像走近整株无花果树，不先把它理解成甜果酱。",
+      "展开时观察树叶、树汁与木头之间的联系，留意黑胡椒是否带出一点辛锐，使绿色气息更有轮廓。",
+      "渐淡时重点留意无花果木与白雪松的木质感；品牌对 EDP 强调树木的一面，别直接套用 EDT 的体验。"
+    ],
+    "wear": {
+      "audience": "喜欢青绿树叶、树汁和干爽木质联想的人。",
+      "occasions": [
+        "户外散步",
+        "周末书店"
+      ],
+      "impression": "呈现无花果树的叶、汁与木头，白雪松使木质轮廓突出。",
+      "consideration": "散步可探索整株树木的气味联想；若期待成熟无花果的甜香，先确认 EDP 的树叶和木质也合口味。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-full-10057",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://us.diptyqueparis.com/en-us/products/eau-de-parfum-eau-rose-rosep75c?nosto=nosto-page-product2&refSrc=597",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "大马士革玫瑰",
+      "千叶玫瑰",
+      "洋甘菊",
+      "荔枝",
+      "朝鲜蓟香调"
+    ],
+    "stages": [
+      "初闻可从玫瑰与荔枝联想切入，观察花瓣的鲜润感和一点果香，而不是只期待浓甜玫瑰。",
+      "展开时留意洋甘菊与朝鲜蓟香调的草本、青绿联想，像花瓣旁还有植物茎叶，不是做菜的味道。",
+      "渐淡时继续观察玫瑰与植物感如何相处，看看花瓣是否变得更柔和，草本与青绿感又留下多少。"
+    ],
+    "wear": {
+      "audience": "喜欢玫瑰，也愿意尝试草本、青绿植物细节的人。",
+      "occasions": [
+        "白天看展",
+        "午后约会"
+      ],
+      "impression": "鲜润玫瑰带荔枝联想，洋甘菊与青绿植物感增加细节。",
+      "consideration": "看展或午后见面可探索玫瑰的植物感；这里对应 Eau Rose EDP，不把 EDT 的香调直接复制过来。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-2581",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.franciskurkdjian.com/int-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "茉莉",
+      "藏红花调",
+      "龙涎香调",
+      "干燥木质调",
+      "糖甜香（乙基麦芽酚）"
+    ],
+    "stages": [
+      "初闻可观察茉莉与藏红花调，辨认花香和带干燥辛意的部分，它们可能与甜香同时出现。",
+      "展开时留意龙涎香调和干燥木质带来的矿物、木头联想，像甜香旁有一块较干硬的背景。",
+      "渐淡时观察糖甜香与木质、矿物感的比例，像甜香旁仍留着干燥木头的联想，留意它们是否同时存在。"
+    ],
+    "wear": {
+      "audience": "喜欢糖甜香与干燥木质、矿物感形成对比的人。",
+      "occasions": [
+        "晚间聚会",
+        "微凉外出"
+      ],
+      "impression": "花香、糖甜与干燥木质矿物感相互交织，反差鲜明。",
+      "consideration": "聚会可试甜与干燥的对比；先少量并观察周围空间，不要因自己暂时闻不清就立即补喷。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-full-4304",
+    "concentration": "Extrait de Parfum",
+    "sourceUrl": "https://www.franciskurkdjian.com/int-en/landing-baccaratrouge540-extrait-de-parfum.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "大花茉莉",
+      "苦杏仁",
+      "糖甜香（乙基麦芽酚）",
+      "龙涎香调",
+      "木质琥珀调",
+      "麝香"
+    ],
+    "stages": [
+      "初闻可重点对照苦杏仁与糖甜香，像甜点里一丝杏仁的微苦，再观察茉莉是否已经融在其中。",
+      "展开时围绕大花茉莉与木质琥珀试闻，分辨花香的饱满感如何与较干燥、温暖的底色结合。",
+      "渐淡时观察麝香、木质琥珀与龙涎香调的柔软和干燥感，并留意杏仁甜香是否仍在其中。"
+    ],
+    "wear": {
+      "audience": "喜欢杏仁甜苦反差、茉莉与木质琥珀感的人。",
+      "occasions": [
+        "微凉晚餐",
+        "晚间庆祝"
+      ],
+      "impression": "苦杏仁增强甜苦反差，茉莉与木质琥珀、麝香交织。",
+      "consideration": "这版香精加入明确的苦杏仁线索，应与 EDP 分开试闻；晚餐和小空间先少量，确认甜暖感不会压过食物。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-23113",
+    "concentration": "Eau de Parfum",
+    "sourceUrl": "https://www.creedfragrance.com/p/aventus/12870029/?variation=12852838",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "佛手柑",
+      "柠檬",
+      "菠萝",
+      "粉红胡椒",
+      "桦木",
+      "广藿香"
+    ],
+    "stages": [
+      "初闻可找佛手柑与柠檬的果皮清亮，再观察菠萝果香是否已出现，像明亮果香里带一点酸意。",
+      "展开时留意菠萝与粉红胡椒的对比，果香的甜润和香料的轻微辛意可能与木质同时存在。",
+      "渐淡时围绕桦木与广藿香观察干燥、烟熏般的木质联想；不同批次感受不能仅凭现行官网说明断定。"
+    ],
+    "wear": {
+      "audience": "喜欢明亮果香与干燥、带烟熏联想木质的人。",
+      "occasions": [
+        "白天商务会面",
+        "周末社交"
+      ],
+      "impression": "明亮柑橘、菠萝与辛香木质形成反差，收尾偏干爽。",
+      "consideration": "商务会面可试果香和干爽木质的组合；这里按现行 Aventus EDP 资料整理，不代表所有年份批次完全相同。"
+    },
+    "pyramid": null
+  },
+  {
+    "id": "hf-2465",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.maisonmargiela-fragrances.us/fragrances/replica/replica-lazy-sunday-morning/MM009.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "梨",
+      "铃兰",
+      "醛香调",
+      "鸢尾",
+      "玫瑰",
+      "橙花",
+      "广藿香",
+      "黄葵籽",
+      "白麝香"
+    ],
+    "stages": [
+      "梨、铃兰与醛香形成清亮柔和的开场，可联想干净织物旁的一点果香与花香，留意皂感是否明显。",
+      "鸢尾、玫瑰和橙花带来柔粉花瓣感，观察花香怎样融入织物般的洁净联想。",
+      "广藿香、黄葵籽与白麝香给后段添柔软和较深的底色，像干净布料贴近皮肤时的温和联想。"
+    ],
+    "wear": {
+      "audience": "喜欢洁净织物、柔粉花香与柔软麝香感的人。",
+      "occasions": [
+        "居家阅读",
+        "日常通勤"
+      ],
+      "impression": "清亮果花香与柔粉花瓣相接，余韵偏细软的织物联想。",
+      "consideration": "居家可探索柔和织物感；对皂感或粉感不确定时先试小样，通勤也要留意近距离的用量。"
+    },
+    "pyramid": {
+      "top": [
+        "梨",
+        "铃兰",
+        "醛香调"
+      ],
+      "heart": [
+        "鸢尾",
+        "玫瑰",
+        "橙花"
+      ],
+      "base": [
+        "广藿香",
+        "黄葵籽",
+        "白麝香"
+      ]
+    }
+  },
+  {
+    "id": "hf-23511",
+    "concentration": "Eau de Toilette",
+    "sourceUrl": "https://www.maisonmargiela-fragrances.us/fragrances/replica-eau-de-toilette/replica-by-the-fireplace/MM005.html",
+    "checkedAt": "2026-11-08",
+    "notes": [
+      "粉红胡椒",
+      "橙花",
+      "丁香花蕾",
+      "栗子香调",
+      "愈创木",
+      "刺柏木油",
+      "香草",
+      "秘鲁香脂",
+      "开司米酮"
+    ],
+    "stages": [
+      "粉红胡椒、丁香花蕾与橙花形成带辛暖感的开场，可以先找香料的微辣，再留意白花的存在。",
+      "栗子香调、愈创木与刺柏木油构成烤栗子和燃木联想，观察甜食气息与烟熏木质如何相衬。",
+      "香草、秘鲁香脂与开司米酮带来柔软甜暖的余韵，像木头旁留下温暖甜香，并非实际产生热量。"
+    ],
+    "wear": {
+      "audience": "喜欢烤栗子、烟熏木质与香草暖意的人。",
+      "occasions": [
+        "寒凉夜间散步",
+        "冬日居家"
+      ],
+      "impression": "烤栗子与燃木联想相伴，香草和香脂使余韵甜暖柔和。",
+      "consideration": "寒凉时可探索烟熏与甜暖的组合；先确认自己喜欢燃木联想，在餐桌和密闭空间尤其减少用量。"
+    },
+    "pyramid": {
+      "top": [
+        "粉红胡椒",
+        "橙花",
+        "丁香花蕾"
+      ],
+      "heart": [
+        "栗子香调",
+        "愈创木",
+        "刺柏木油"
+      ],
+      "base": [
+        "香草",
+        "秘鲁香脂",
+        "开司米酮"
+      ]
+    }
+  }
+]

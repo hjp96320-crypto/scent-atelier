@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {formatMl,nextHalfDose,remainingMl,ratioFeedback,restoreCatalogView} from './interaction-model.mjs';
+import {makeBlend,addDose,isComplete,totalUnits} from './blend-model.mjs';
+import {catalogSearchText,filterCatalog} from './catalog-model.mjs';
+test('dose display always uses one decimal, including uneven legacy targets',()=>{assert.equal(formatMl(333),'3.3');assert.equal(formatMl(50),'0.5');assert.equal(formatMl(0),'0.0');assert.equal(remainingMl(3),'不足 0.1');});
+test('half-millilitre dosing finishes uneven recipes exactly without exceeding targets',()=>{const b=makeBlend(10,[['bergamot',33.3],['tea',33.3],['wood',33.4]]);for(const row of b.rows){while(row.added<row.target)addDose(b,row.id,nextHalfDose(row.added,row.target));assert.equal(nextHalfDose(row.added,row.target),0);}assert.ok(isComplete(b));assert.equal(totalUnits(b),1000);});
+test('ratio feedback explains volume difference and invalid precision',()=>{assert.match(ratioFeedback(10,[['a',40],['b',30],['c',20]]),/还差 10.0%（约 1.0 mL）/);assert.match(ratioFeedback(50,[['a',50],['b',40],['c',20]]),/超出 10.0%（约 5.0 mL）/);assert.match(ratioFeedback(10,[['a',0],['b',50],['c',50]]),/至少/);assert.match(ratioFeedback(10,[['a',33.33],['b',33.33],['c',33.34]]),/一位小数/);});
+test('catalog view restores filters page and scroll while rejecting malformed positions',()=>{const v={query:'迪奥',brand:'DIOR',region:'法国',family:'木质',page:3,scroll:1520};assert.deepEqual(restoreCatalogView(v),v);assert.equal(restoreCatalogView({page:-2,scroll:Infinity}).page,1);assert.equal(restoreCatalogView({scroll:Infinity}).scroll,0);});
+const sample=(brand,name,displayName)=>({brand,name,displayName,notes:[],families:['木质'],family:'木质',region:'法国',concentration:'Eau de Parfum'});
+test('aliases find existing products while punctuation and case do not block searches',()=>{const p=sample('JO MALONE LONDON','English Pear & Freesia','英国梨与小苍兰');assert.equal(filterCatalog([p],{query:'祖马龙 英国梨小苍兰'}).length,1);assert.equal(filterCatalog([p],{query:'JO-MALONE English Pear & Freesia'}).length,1);const d=sample('DIOR','Sauvage','旷野');assert.equal(filterCatalog([d],{query:'迪奧 狂野 edp'}).length,1);assert.match(catalogSearchText(sample('CHANEL','Bleu De Chanel','蔚蓝')),/蓝香奈儿/);});
