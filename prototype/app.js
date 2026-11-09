@@ -12,10 +12,19 @@ import {createAtelierScene} from './atelier-scene.js';
 import {bases,baseById,cleanAppearance,makeBlend,restoreBlend,totalUnits,isComplete,addDose} from './blend-model.mjs?v=20261108-selection-flow';
 import {scentCategories,guideForBase} from './scent-guide.mjs';
 import {equalEntries,prepareEntries,sameRecipe} from './atelier-selection.mjs';
-import {perfumes,brandNames} from './data.js?v=20261108-calendar';
+let perfumes=[],brandNames={},catalogPromise;
+async function ensureCatalog(){
+ if(!catalogPromise)catalogPromise=import('./data.js?v=20261109-mobile').then(data=>{
+  perfumes=data.perfumes;brandNames=data.brandNames;
+  searchTexts=perfumes.map(p=>catalogSearchText(p,brandNames));
+  brandCounts.clear();for(const p of perfumes)brandCounts.set(p.brand,(brandCounts.get(p.brand)||0)+1);
+  catalogBrands=[...brandCounts.keys()];
+ }).catch(error=>{catalogPromise=null;throw error;});
+ return catalogPromise;
+}
 import {tips,rankedTips} from './blend-tips.mjs?v=20261108-selection-flow';
 import {saveFinishedBlend} from './blend-storage.mjs?v=20261108-selection-flow';
-import {explainEvolution} from './catalog-presentation.mjs?v=20261108-calendar';
+import {explainEvolution} from './fragrance-notes.mjs?v=20261108-note-evidence';
 import {describeWear} from './perfume-wear.mjs';
 import {pairingGuidance,blendScenes} from './blend-guidance.mjs';
 import {regionGroups,brandInitial,groupBrands,popularBrands} from './catalog-filter-groups.mjs?v=20261108-selection-flow';
@@ -32,7 +41,7 @@ try{stored=JSON.parse(localStorage.getItem(key)||'{}')||{};}catch{}
 let blend=stored.draft?restoreBlend(stored.draft):null;
 let previousDraft=stored.previousDraft?restoreBlend(stored.previousDraft):null;
 let works=Array.isArray(stored.works)?stored.works:[];
-let owned=Array.isArray(stored.owned)?stored.owned.filter(id=>perfumes.some(p=>p.id===id)):[];
+let owned=Array.isArray(stored.owned)?stored.owned.filter(id=>typeof id==='string'):[];
 let diary=Array.isArray(stored.diary)?stored.diary:[];
 let trash=Array.isArray(stored.trash)?stored.trash:[];
 let editorDraft=null;try{editorDraft=restoreEditor(JSON.parse(localStorage.getItem(key+'-editor')||'null'));}catch{}
@@ -40,9 +49,9 @@ let catalogView=restoreCatalogView(null);try{catalogView=restoreCatalogView(JSON
 let regionFilter=catalogView.region,familyFilter=catalogView.family,catalogPageNumber=catalogView.page;
 let atlas=null,exploreMode='cards',continentFilter='',atlasScope=null,ownedOnly=false,atlasReset=0;
 try{const saved=sessionStorage.getItem(key+'-explore-mode');if(['cards','star','map'].includes(saved))exploreMode=saved;}catch{}
-const searchTexts=perfumes.map(p=>catalogSearchText(p,brandNames));
-const brandCounts=new Map();for(const p of perfumes)brandCounts.set(p.brand,(brandCounts.get(p.brand)||0)+1);
-const catalogBrands=[...brandCounts.keys()];
+let searchTexts=[];
+const brandCounts=new Map();
+let catalogBrands=[];
 let brandQuery='',brandLetter='',brandLimit=60;
 let scene=null,route='',collectionTab='works',filter='全部',query=catalogView.query,brandFilter=catalogView.brand,pouring=null,undo=[],pourClickConsumed=false;
 let studioMode=blend?.sealed?'bottle':'mix';
@@ -67,7 +76,12 @@ function pageHeading(en,title,sub,note=''){
 }
 let restoringCatalog=false;
 function rememberCatalog(){if(restoringCatalog)return;catalogView={query,brand:brandFilter,region:regionFilter,family:familyFilter,page:catalogPageNumber,scroll:window.scrollY};try{sessionStorage.setItem(key+'-catalog',JSON.stringify(catalogView));}catch{}}
-function navigate(){clearTimeout(recommendationTimer);if(route==='explore')rememberCatalog();atlas?.destroy();atlas=null;stopPour();scene?.destroy();scene=null;route=location.hash.slice(1)||'atelier';if(!['today','explore','atelier','collection'].includes(route))route='atelier';$('#main').dataset.page=route;$$('[data-route]').forEach(a=>{if(a.dataset.route===route)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});if(route==='atelier')renderAtelier();if(route==='explore')renderExplore();if(route==='today')renderToday();if(route==='collection')renderCollection();const targetY=route==='explore'?catalogView.scroll:0;restoringCatalog=route==='explore';window.scrollTo(0,targetY);requestAnimationFrame(()=>requestAnimationFrame(()=>{if(route==='explore'){window.scrollTo(0,targetY);restoringCatalog=false;}}));}
+let navigationId=0;
+async function navigate(){const navigation=++navigationId;clearTimeout(recommendationTimer);if(route==='explore')rememberCatalog();atlas?.destroy();atlas=null;stopPour();scene?.destroy();scene=null;route=location.hash.slice(1)||'atelier';if(!['today','explore','atelier','collection'].includes(route))route='atelier';$('#main').dataset.page=route;$$('[data-route]').forEach(a=>{if(a.dataset.route===route)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});if(route!=='atelier'&&!perfumes.length){
+ $('#main').innerHTML='<div class="empty" role="status"><h1>正在打开香水图鉴…</h1><p>首次加载需要一点时间，你也可以先去调香。</p><a class="secondary" href="#atelier">先去调香</a></div>';
+ try{await ensureCatalog();}catch{if(navigation!==navigationId)return;$('#main').innerHTML='<div class="empty" role="alert"><h1>图鉴暂时没能加载</h1><p>请检查网络后重试，已保存的记录不会丢失。</p><button class="primary" id="retry-catalog">重新加载</button><a class="secondary" href="#atelier">先去调香</a></div>';$('#retry-catalog').onclick=navigate;return;}
+ if(navigation!==navigationId)return;
+ }if(route==='atelier')renderAtelier();if(route==='explore')renderExplore();if(route==='today')renderToday();if(route==='collection')renderCollection();const targetY=route==='explore'?catalogView.scroll:0;restoringCatalog=route==='explore';window.scrollTo(0,targetY);requestAnimationFrame(()=>requestAnimationFrame(()=>{if(route==='explore'){window.scrollTo(0,targetY);restoringCatalog=false;}}));}
 function selectedRow(){return blend.rows.find(r=>r.id===blend.selected);}
 const ml=formatMl;
 function renderAtelier(){
@@ -321,7 +335,7 @@ function evolutionMarkup(p){const evolution=explainEvolution(p);return `<section
 function wearMarkup(p){const wear=describeWear(p);return `<section class="wear-guide" aria-label="穿香建议"><h3>穿香建议</h3><dl><div><dt>适合谁</dt><dd>${esc(wear.audience)}</dd></div><div><dt>适用场景</dt><dd>${esc(wear.occasions.join('、'))}</dd></div><div><dt>气味印象</dt><dd>${esc(wear.impression)}</dd></div>${wear.consideration?`<div><dt>穿香提示</dt><dd>${esc(wear.consideration)}</dd></div>`:''}</dl><p class="wear-caption">按气味偏好提供的场景建议，不按年龄或性别限定；用量、环境和个人感受会影响体验。</p></section>`;}
 function perfumeDetail(id){const p=perfumes.find(p=>p.id===id);if(!p)return;openModal(`<div class="modal-inner">${modalHeader('',esc(p.displayBrand))}<div class="detail-layout"><div class="detail-image" data-framing="${p.brand==='DIOR'&&p.sku?'dior':'standard'}"><img src="${esc(p.image)}" alt="${esc(p.displayBrand+' '+p.displayName+' '+p.concentrationZh)}"></div><div class="detail-copy"><h2>${esc(p.displayName)}</h2>${p.displayName!==p.name?`<p class="original-name">${esc(p.name)}</p>`:''}<p class="detail-meta">${esc(p.concentrationZh)} · ${esc(p.region)} · ${esc(p.family)}</p><div class="tags">${p.notesZh.map(n=>`<span class="tag">${esc(n)}</span>`).join('')}</div><h3 class="scent-description-heading">${p.descriptionKind==='interpretation'?'气味印象':'香气介绍'}</h3><p>${esc(p.displayDescription)}</p><button class="primary" id="own-perfume">${icon(owned.includes(id)?'check':'plus')}${owned.includes(id)?'已在香柜 · 移出':'我已拥有，放入香柜'}</button></div></div>${evolutionMarkup(p)}${wearMarkup(p)}</div>`,true);if(compareVersions(perfumes,id)){$('#own-perfume').insertAdjacentHTML('afterend','<button class="secondary detail-version-button" id="compare-versions">对比同系列版本</button>');$('#compare-versions').onclick=()=>versionComparison(id);}$('#own-perfume').onclick=()=>{const previousOwned=[...owned];const present=owned.includes(id);owned=present?owned.filter(x=>x!==id):[...owned,id];if(!save()){owned=previousOwned;return;}$('#own-perfume').innerHTML=icon(present?'plus':'check')+(present?'我已拥有，放入香柜':'已在香柜 · 移出');toast(present?'已移出个人香柜':'已放入香柜，可以去“今日灵感”留一条气味手记。');if(route==='today')renderToday();if(route==='collection')renderCollection();if(route==='explore')drawCatalog();};}
 function refreshToday(){
- if(route!=='today')return;
+ if(route!=='today'||!perfumes.length)return;
  const current=dateKey();
  if(current!==todayRenderedDay){
   if(selectedDiaryDate===todayRenderedDay){selectedDiaryDate=current;if(diaryMonth===todayRenderedDay.slice(0,7))diaryMonth=current.slice(0,7);}

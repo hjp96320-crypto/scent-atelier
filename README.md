@@ -16,11 +16,12 @@ python -m http.server 4187 --bind 127.0.0.1 --directory prototype
 
 ## 构建与测试
 
-需要 Node.js 22 或更新版本，无需安装 npm 依赖。
+需要 Node.js 22 或更新版本；首次构建先安装锁定的构建依赖。
 
 ```powershell
-node --test prototype/*.test.mjs
-node scripts/build-site.mjs
+npm ci
+npm test
+npm run build
 ```
 
 构建仅把运行文件、最终图鉴使用的真实图片、可视化数据和许可证复制到 `dist`，排除测试、图片审核页面和研究资料。推送到 `main` 后，GitHub Actions 运行测试、构建并发布到 GitHub Pages；也可手动运行 `Publish GitHub Pages` 工作流。

@@ -1,0 +1,12 @@
+{
+  "name": "scent-atelier",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test prototype/*.test.mjs scripts/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

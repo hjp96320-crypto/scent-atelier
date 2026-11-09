@@ -1,3 +1,4 @@
+import {createAtlasAssetLoader} from './atlas-assets.mjs';
 import {groupTitle,groupClues,isGroupMember} from './catalog-atlas-groups.mjs';
 import {indexAtlas,relatedPerfumes,regionStatistics,regionHeatmap,familyColors,continentColors} from './catalog-atlas-model.mjs';
 import {createAtlasRenderer} from './catalog-atlas-renderer.mjs?v=20261109-all-groups';
@@ -9,16 +10,12 @@ const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;
 const paths={plus:'M12 5v14M5 12h14',minus:'M5 12h14',fit:'M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5',close:'m6 6 12 12M6 18 18 6',arrow:'M5 12h14m-5-5 5 5-5 5',chevron:'m7 14 5-5 5 5'};
 const icon=name=>`<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="${paths[name]}"/></svg>`;
 const fetchJSON=async url=>{const response=await fetch(url);if(!response.ok)throw new Error('无法加载图形数据');return response.json();};
-let assetPromise;
-function loadAssets(){
- if(!assetPromise)assetPromise=Promise.all([
-  fetchJSON('assets/atlas/atlas-data.json'),fetchJSON('assets/atlas/world.json'),fetchJSON('assets/atlas/brand-locations.json'),fetchJSON('assets/atlas/admin1.json'),fetchJSON('assets/atlas/local-groups.json?v=20261109-all-groups'),
-  ...['deck-gl-9.4.1.min.js'].map(file=>new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='vendor/'+file;script.onload=resolve;script.onerror=()=>{script.remove();reject(new Error('无法加载图形组件'));};document.head.append(script);}))
- ]).catch(error=>{assetPromise=null;throw error;});
- return assetPromise;
-}
+const loadAssets=createAtlasAssetLoader(fetchJSON,()=>new Promise((resolve,reject)=>{
+ const script=document.createElement('script');script.src='vendor/deck-gl-9.4.1.min.js';script.onload=resolve;script.onerror=()=>{script.remove();reject(new Error('无法加载图形组件'));};document.head.append(script);
+}));
 
 export function createCatalogAtlas({root,perfumes,onDetail,onCompare,onFilter,onScope,onReset,onExplore,initialMode='star'}){
+ let loadingMode=null,readyMode=null,loadId=0;
  let disposed=false,index,worldData,chart,observer,mode=initialMode,found=perfumes,records=[],allowedIds=new Set(),filters={};
  let selected='',expanded=false,related=false,candidates=[],candidatePage=1;
  let showList=false,listPage=1,colorBy='groups',mapMetric='brands';
@@ -231,14 +228,17 @@ export function createCatalogAtlas({root,perfumes,onDetail,onCompare,onFilter,on
  }
 
  async function start(){
+  if(loadingMode===mode)return;const requestedMode=mode,request=++loadId;loadingMode=mode;
+  observer?.disconnect();chart?.destroy();chart=null;
   root.innerHTML='<div class="atlas-loading" role="status">正在打开香气地图…<span>首次载入需要稍等片刻</span></div>';
-  try{const [data,world,places,boundaries,local]=await loadAssets();if(!valid())return;index=indexAtlas(data,perfumes);worldData=world;locations=places;admin1=boundaries;localData=local;shell();records=found.map(p=>index.byId.get(p.id));allowedIds=new Set(found.map(p=>p.id));if(filters.anchor&&allowedIds.has(filters.anchor)){selected=filters.anchor;}draw();}
-  catch(error){if(!valid())return;root.innerHTML=`<div class="atlas-loading" role="alert"><h2>图形暂时没能打开</h2><p>${esc(error.message)}。可重试，或切回卡片继续浏览。</p><button class="secondary" id="atlas-retry">重新加载</button></div>`;$('#atlas-retry').onclick=start;}
+  try{const [data,world,places,boundaries,local]=await loadAssets(requestedMode);if(!valid()||request!==loadId)return;readyMode=requestedMode;index=indexAtlas(data,perfumes);worldData=world;locations=places;admin1=boundaries;localData=local;shell();records=found.map(p=>index.byId.get(p.id));allowedIds=new Set(found.map(p=>p.id));if(filters.anchor&&allowedIds.has(filters.anchor)){selected=filters.anchor;}draw();}
+  catch(error){if(!valid()||request!==loadId)return;root.innerHTML=`<div class="atlas-loading" role="alert"><h2>图形暂时没能打开</h2><p>${esc(error.message)}。可重试，或切回卡片继续浏览。</p><button class="secondary" id="atlas-retry">重新加载</button></div>`;$('#atlas-retry').onclick=start;}
+  finally{if(request===loadId)loadingMode=null;}
  }
  start();
  return {
-  update(items,state={}){const newAnchor=state.anchor&&state.anchor!==filters.anchor;const nextMode=state.mode||mode;if(mode!==nextMode||state.resetKey!==filters.resetKey||newAnchor||items.length!==found.length||items.some((p,i)=>p.id!==found[i]?.id)){focusedGroup=null;localView=null;subgroup=null;groupPage=1;}if(mode!==nextMode||state.region!==filters.region){mode=nextMode;selected='';candidates=[];mapCity='';mapBrand='';}found=items;filters=state;ownedIds=new Set(state.ownedIds||[]);listPage=1;if(!index)return;records=found.map(p=>index.byId.get(p.id));allowedIds=new Set(found.map(p=>p.id));if(selected&&!allowedIds.has(selected)){selected='';related=false;expanded=false;}candidates=candidates.filter(r=>allowedIds.has(r.id));if(state.anchor&&allowedIds.has(state.anchor)&&newAnchor){selected=state.anchor;candidates=[];}draw();},
-  locateSearch(){if(!index)return;if(records.length===1){select(records[0].id);$('#atlas-chart').focus({preventScroll:true});$('#atlas-chart').scrollIntoView({block:'start'});}else{showList=true;renderList();$('#atlas-results').scrollIntoView({block:'start'});}},
+  update(items,state={}){const newAnchor=state.anchor&&state.anchor!==filters.anchor;const nextMode=state.mode||mode;if(mode!==nextMode||state.resetKey!==filters.resetKey||newAnchor||items.length!==found.length||items.some((p,i)=>p.id!==found[i]?.id)){focusedGroup=null;localView=null;subgroup=null;groupPage=1;}if(mode!==nextMode||state.region!==filters.region){mode=nextMode;selected='';candidates=[];mapCity='';mapBrand='';}found=items;filters=state;ownedIds=new Set(state.ownedIds||[]);listPage=1;if(!index||readyMode!==mode||loadingMode){start();return;}records=found.map(p=>index.byId.get(p.id));allowedIds=new Set(found.map(p=>p.id));if(selected&&!allowedIds.has(selected)){selected='';related=false;expanded=false;}candidates=candidates.filter(r=>allowedIds.has(r.id));if(state.anchor&&allowedIds.has(state.anchor)&&newAnchor){selected=state.anchor;candidates=[];}draw();},
+  locateSearch(){if(!index||readyMode!==mode||loadingMode)return;if(records.length===1){select(records[0].id);$('#atlas-chart').focus({preventScroll:true});$('#atlas-chart').scrollIntoView({block:'start'});}else{showList=true;renderList();$('#atlas-results').scrollIntoView({block:'start'});}},
   destroy(){disposed=true;observer?.disconnect();chart?.destroy();root.onclick=null;}
  };
 }

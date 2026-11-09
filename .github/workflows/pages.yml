@@ -21,8 +21,9 @@ jobs:
         with:
           node-version: '22'
       - uses: actions/configure-pages@v5
+      - run: npm ci
       - name: Test
-        run: node --test prototype/*.test.mjs
+        run: npm test
       - name: Build website
         run: node scripts/build-site.mjs
       - uses: actions/upload-pages-artifact@v4
