@@ -5,6 +5,7 @@ import {createHash} from 'node:crypto';
 import {gzipSync} from 'node:zlib';
 import {build,transform} from 'esbuild';
 import {perfumes} from '../prototype/data.js';
+import {isAlchemistOfficialImage} from '../prototype/alchemist-out-west.mjs';
 import fullRows from '../prototype/catalog-full-rows.js';
 import {compactCatalogRows} from './site-build-tools.mjs';
 
@@ -22,6 +23,7 @@ async function includeDirectory(dir){
 await includeDirectory('vendor');
 await includeDirectory('assets/atlas');
 for(const perfume of perfumes){
+ if(isAlchemistOfficialImage(perfume))continue; // Reference exact official CDN images; never mirror unknown external assets.
  if(!perfume.image||!perfume.image.startsWith('assets/')||perfume.image.includes('..'))throw new Error(`Invalid image path: ${perfume.id}`);
  files.add(perfume.image);
 }

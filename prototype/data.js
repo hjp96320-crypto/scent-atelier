@@ -1,4 +1,5 @@
 import fullRows from './catalog-full-rows.js';
+import {alchemistPerfumes} from './alchemist-out-west.mjs';
 import {mergeCatalog} from './catalog-model.mjs';
 import {enrichCatalog} from './catalog-enrichment.mjs';
 import {localizeCatalog} from './catalog-presentation.mjs?v=20261108-calendar';
@@ -80,7 +81,8 @@ export const curatedPerfumes = [
     }
   },
   ...officialPerfumes,
-  ...catalogExpansion
+  ...catalogExpansion,
+  ...alchemistPerfumes
 ];
 
 export const perfumes = localizeCatalog(enrichCatalog(mergeCatalog(curatedPerfumes, fullRows)));

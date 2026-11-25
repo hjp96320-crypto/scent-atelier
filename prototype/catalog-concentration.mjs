@@ -1,5 +1,5 @@
 // Version labels are categorical metadata, never inferred oil percentages.
-const labels=['Eau de Parfum Intense','Eau de Parfum Légère','Eau de Parfum Absolue','Eau de Toilette Intense','Extrait de Parfum','Eau de Parfum','Eau de Toilette','Eau de Cologne','Pure Parfum','Cologne Intense','Parfum','Cologne','Elixir'];
+const labels=['Eau de Parfum Intense','Eau de Parfum Légère','Eau de Parfum Absolue','Eau de Toilette Intense','Extrait de Parfum','Eau de Parfum','Eau de Toilette','Eau de Cologne','Pure Parfum','Cologne Intense','Parfum','Cologne','Elixir','Absolu'];
 export function canonicalConcentration(value){return labels.find(label=>label.toLowerCase()===String(value||'').trim().toLowerCase())||'';}
 export function namedConcentration(name){
  // A bare 'Parfum', 'Cologne' or 'Elixir' can be part of a fragrance name.

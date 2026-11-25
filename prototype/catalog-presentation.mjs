@@ -1,4 +1,5 @@
 import {popularProfiles} from './popular-perfume-profiles.mjs';
+import {alchemistProfiles} from './alchemist-out-west.mjs';
 import {brandLabels,productLabels,productPyramids} from './catalog-zh-names.mjs';
 import {catalogPyramids} from './catalog-pyramids.js?v=20261108-note-evidence';
 import {catalogNoteOverrides,unresolvedPyramidIds} from './catalog-note-overrides.mjs?v=20261108-note-evidence';
@@ -6,7 +7,7 @@ import {noteLabel,explainEvolution} from './fragrance-notes.mjs?v=20261108-note-
 import {namedConcentration,concentrationGroup} from './catalog-concentration.mjs';
 import {concentrationEvidence} from './catalog-concentration-data.mjs';
 
-const concentrationLabels={'Eau de Toilette':'淡香水 · EDT','Eau de Parfum':'淡香精 · EDP','Parfum':'香精','Pure Parfum':'纯香精','Extrait de Parfum':'香精萃取','Cologne':'古龙水','Eau de Cologne':'古龙水 · EDC','Eau de Parfum Légère':'轻盈淡香精','Eau de Toilette Intense':'浓郁淡香水','Eau de Parfum Intense':'浓郁淡香精','Elixir':'馥郁香精','Cologne Intense':'浓郁古龙水','Eau de Parfum Absolue':'纯香淡香精','Deo Parfum':'香氛 · Deo Parfum'};
+const concentrationLabels={'Eau de Toilette':'淡香水 · EDT','Eau de Parfum':'淡香精 · EDP','Parfum':'香精','Pure Parfum':'纯香精','Extrait de Parfum':'香精萃取','Cologne':'古龙水','Eau de Cologne':'古龙水 · EDC','Eau de Parfum Légère':'轻盈淡香精','Eau de Toilette Intense':'浓郁淡香水','Eau de Parfum Intense':'浓郁淡香精','Elixir':'馥郁香精','Absolu':'Absolu · 香精版本','Cologne Intense':'浓郁古龙水','Eau de Parfum Absolue':'纯香淡香精','Deo Parfum':'香氛 · Deo Parfum'};
 function concentrationLabel(p){
  if(concentrationLabels[p.concentration])return concentrationLabels[p.concentration];
  if(/[\u3400-\u9fff]/.test(p.concentration)&&p.concentration!=='浓度未单独标注')return p.concentration;
@@ -22,7 +23,7 @@ export function localizeCatalog(items){
   const pyramid=unresolvedPyramids.has(p.id)?undefined:evidence?.pyramid||productPyramids[key]||catalogPyramids[p.sourceRowIndex]||p.pyramid;
   const complete=['top','heart','base'].every(stage=>pyramid?.[stage]?.length);
   const notesZh=[...new Set((complete?['top','heart','base'].flatMap(stage=>pyramid[stage]):p.notes).map(noteLabel))];
-  const candidate=popularProfiles[p.id];
+  const candidate=popularProfiles[p.id]||alchemistProfiles[p.id];
   const identityMatches=candidate&&(!candidate.identity||(candidate.identity.brand===p.brand&&candidate.identity.name===p.name));
   const concentration=evidence?.concentration||(concentrationGroup(p.concentration)!=='unknown'?p.concentration:(identityMatches&&candidate.identity?candidate.concentration:null)||namedConcentration(p.name)||concentrationEvidence[p.id]?.concentration||p.concentration);
   const profile=identityMatches&&candidate.concentration===concentration?candidate:null;

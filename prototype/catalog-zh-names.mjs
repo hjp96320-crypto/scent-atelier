@@ -1,6 +1,7 @@
 // Chinese display labels; exact keys preserve concentration and edition.
 // Source and translation boundaries: research/catalog-zh-sources.md.
 export const brandLabels = {
+  "ALCHEMIST": "Alchemist（炼金术士）",
   "CHANEL": "香奈儿",
   "DIOR": "迪奥",
   "CALVIN KLEIN": "卡尔文克莱恩",

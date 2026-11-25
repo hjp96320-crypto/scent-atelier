@@ -1,5 +1,6 @@
 // Explicit reviewed editions; names or concentration alone never infer membership.
 export const versionGroups=[
+ {"label":"Alchemist · Out West（西行）","ids":["alchemist-out-west","alchemist-out-west-am","alchemist-out-west-pm","alchemist-out-west-absolu"]},
  {label:'香奈儿 · 蔚蓝',ids:['hf-full-21386','hf-20113','hf-full-1817']},
  {label:'迪奥 · 旷野',ids:['dior-sauvage-edt','dior-sauvage-eau-de-parfum','hf-full-10744','dior-sauvage-elixir']},
  {label:'香奈儿 · 邂逅柔情',ids:['hf-full-25596','hf-16094']},

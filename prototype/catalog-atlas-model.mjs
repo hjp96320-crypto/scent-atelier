@@ -2,8 +2,9 @@ export const familyColors={花香:'#c67596',木质:'#98734b',琥珀:'#d6a241',�
 export const continentColors={'亚洲':'#c49a4b','欧洲':'#7a9f88','北美洲':'#7e9fc5','南美洲':'#cc8f99','非洲':'#ad8267','大洋洲':'#90a965','跨洲（欧亚）':'#a391bb','其他':'#8f9793'};
 
 export function indexAtlas(data,perfumes){
- const catalog=new Map(perfumes.map(p=>[p.id,p]));
- if(data.population!==perfumes.length||data.rows.length!==data.population)throw new Error('图形数据与当前图鉴版本不一致');
+ const indexedPerfumes=perfumes.filter(p=>!p.atlasPending);
+ const catalog=new Map(indexedPerfumes.map(p=>[p.id,p]));
+ if(data.population!==indexedPerfumes.length||data.rows.length!==data.population)throw new Error('图形数据与当前图鉴版本不一致');
  const records=data.rows.map(([id,x,y,cluster,noteIds,features])=>{
   const p=catalog.get(id);if(!p||!Number.isFinite(x)||!Number.isFinite(y))throw new Error('图形档案缺失或坐标无效');
   const vector=[];let norm=0;
