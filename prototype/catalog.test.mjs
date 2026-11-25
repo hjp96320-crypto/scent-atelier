@@ -38,4 +38,4 @@ for(const p of perfumes){
 assert.equal(perfumes.filter(p=>p.imageOriginalUrl&&!isAlchemistOfficialImage(p)).length,27);
 assert.equal(perfumes.filter(isAlchemistOfficialImage).length,4);
 assert.equal(perfumes.filter(p=>p.imageSourceType==='dataset').length,70);
-console.log(`PASS: ${perfumes.length} image-backed entries; unique versions, image hashes, review records, official hosts, and dataset provenance verified`);
+console.log(`PASS: ${perfumes.length} image-backed entries; unique versions, 100 local assets and their original checks retained; 4 exact official remote references validated structurally only`);
