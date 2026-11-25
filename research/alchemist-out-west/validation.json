@@ -1,0 +1,22 @@
+{
+  "status": "candidate-structure-pass",
+  "date": "2026-11-25",
+  "records": 4,
+  "uniqueIds": 4,
+  "noteCounts": [
+    9,
+    7,
+    9,
+    7
+  ],
+  "verifiedOfficialPyramids": 4,
+  "perfumerOfficialConfirmed": 3,
+  "visuallyMatchedImageLinks": 4,
+  "imagesDownloaded": 0,
+  "imagePermissionsConfirmed": 0,
+  "publishReady": false,
+  "fullRepositoryTestsRun": false,
+  "repositoryModified": false,
+  "sitePublished": false,
+  "notes": "Local JSON structural checks only; not a production integration or image hash audit."
+}

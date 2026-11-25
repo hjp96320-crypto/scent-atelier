@@ -1,0 +1,886 @@
+{
+  "reviewDate": "2026-11-25",
+  "repository": "https://github.com/hjp96320-crypto/scent-atelier",
+  "branch": "main",
+  "status": "review-only",
+  "publishReady": false,
+  "records": [
+    {
+      "id": "alchemist-out-west",
+      "brand": "ALCHEMIST",
+      "name": "Out West",
+      "nameZh": "西行（原版）",
+      "concentration": "Extrait de Parfum",
+      "family": "木质 · 果香 · 花香 · 麝香",
+      "notes": [
+        "日本柚子",
+        "佛手柑",
+        "青苹果",
+        "雪松",
+        "玫瑰",
+        "李子",
+        "麝香",
+        "广藿香",
+        "香根草"
+      ],
+      "description": "柚子与佛手柑带来清亮果皮气息，青苹果增加脆爽感；雪松与玫瑰、李子相接，后段以麝香、广藿香和香根草留下温暖而干燥的木质余韵。",
+      "sourceUrl": "https://alchemistfragrance.com/products/05-out-west",
+      "sourceLabel": "品牌官网资料",
+      "officialReferenceUrl": "https://alchemistfragrance.com/products/05-out-west",
+      "officialName": "Out West",
+      "pyramid": {
+        "top": [
+          "日本柚子",
+          "佛手柑",
+          "青苹果"
+        ],
+        "heart": [
+          "雪松",
+          "玫瑰",
+          "李子"
+        ],
+        "base": [
+          "麝香",
+          "广藿香",
+          "香根草"
+        ],
+        "sourceUrl": "https://alchemistfragrance.com/products/05-out-west",
+        "sourceLabel": "品牌公开香调资料"
+      },
+      "perfumer": null,
+      "image": null,
+      "imageAlt": "ALCHEMIST Out West Extrait de Parfum 官网单瓶商品图",
+      "imageSourceType": "official",
+      "imageSourceUrl": "https://alchemistfragrance.com/products/05-out-west",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDPWebsite_Extrait_OutWest_1.jpg?v=1780306166&width=1445",
+      "imageCredit": "Alchemist Fragrance 官网商品图；摄影权利人待品牌确认",
+      "imageLicense": "品牌官网版权图片；未取得独立公开再分发授权",
+      "imageRightsStatus": "brand-copyright-unlicensed",
+      "verifiedAt": "2026-11-25",
+      "sku": null,
+      "imageSize": "50 mL",
+      "imageSizeLabel": "50 mL",
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "matchMethod": "官网商品页/系列页图像链接 + 瓶身名称及版本人工核对；SKU及文件哈希待验",
+      "reviewStatus": "pending-image-rights",
+      "reviewNote": "白色球形瓶盖，透明深色圆瓶，银色标签印有 05 / OUT WEST / extrait de parfum / 50 mL；与原版商品页匹配。 仅浏览核对，未保存文件、未验哈希及授权。",
+      "versionNote": "原版独立商品；不属于当前官网三款新品陈列，但品牌报道将新品描述为既有 Out West 香氛世界的扩展。"
+    },
+    {
+      "id": "alchemist-out-west-am",
+      "brand": "ALCHEMIST",
+      "name": "OUT WEST A.M.",
+      "nameZh": "西行·晨间",
+      "concentration": "Extrait de Parfum",
+      "family": "木质 · 辛香 · 柑橘 · 皮革",
+      "notes": [
+        "粉红胡椒 CO₂ LMR",
+        "西班牙柠檬油 LMR",
+        "生姜",
+        "莎草（Cypriol）",
+        "雪松",
+        "印尼广藿香油 LMR",
+        "轻皮革"
+      ],
+      "description": "粉红胡椒、生姜和柠檬油构成清亮辛香；莎草衔接干燥的木质与根系感，雪松、印尼广藿香油和轻皮革形成克制而坚定的基调。",
+      "sourceUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+      "sourceLabel": "品牌官网资料",
+      "officialReferenceUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+      "officialName": "OUT WEST A.M.",
+      "pyramid": {
+        "top": [
+          "粉红胡椒 CO₂ LMR",
+          "西班牙柠檬油 LMR",
+          "生姜"
+        ],
+        "heart": [
+          "莎草（Cypriol）"
+        ],
+        "base": [
+          "雪松",
+          "印尼广藿香油 LMR",
+          "轻皮革"
+        ],
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+        "sourceLabel": "品牌公开香调资料"
+      },
+      "perfumer": "Jean-Christophe Hérault",
+      "image": null,
+      "imageAlt": "ALCHEMIST OUT WEST A.M. Extrait de Parfum 官网单瓶商品图",
+      "imageSourceType": "official",
+      "imageSourceUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDP_Website_OUT_WEST_AM_1.jpg?v=1780038519&width=533",
+      "imageCredit": "Alchemist Fragrance 官网商品图；摄影权利人待品牌确认",
+      "imageLicense": "品牌官网版权图片；未取得独立公开再分发授权",
+      "imageRightsStatus": "brand-copyright-unlicensed",
+      "verifiedAt": "2026-11-25",
+      "sku": null,
+      "imageSize": null,
+      "imageSizeLabel": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "matchMethod": "官网商品页/系列页图像链接 + 瓶身名称及版本人工核对；SKU及文件哈希待验",
+      "reviewStatus": "pending-image-rights",
+      "reviewNote": "琥珀棕色瓶身，棕色皮纹瓶盖，浅色金属顶；瓶身明确标有 A.M. / OUT WEST / extrait de parfum。 仅浏览核对，未保存文件、未验哈希及授权。",
+      "versionNote": "2026 新版；品牌视频说明 2026-01-26 首发、2026-02-02 全店及线上发售。"
+    },
+    {
+      "id": "alchemist-out-west-pm",
+      "brand": "ALCHEMIST",
+      "name": "OUT WEST P.M.",
+      "nameZh": "西行·暮间",
+      "concentration": "Elixir",
+      "family": "木质 · 辛香 · 琥珀",
+      "notes": [
+        "藏红花",
+        "葡萄柚",
+        "薰衣草",
+        "Living Gunsmoke（枪火烟熏香调）",
+        "岩蔷薇脂",
+        "浅色广藿香油 LMR",
+        "爪哇香根草油 LMR",
+        "焚香",
+        "香草"
+      ],
+      "description": "藏红花、葡萄柚和薰衣草形成辛香芳香开场，枪火烟熏香调与岩蔷薇脂、广藿香油形成深色树脂核心；香根草、焚香与香草收束。",
+      "sourceUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+      "sourceLabel": "品牌官网资料",
+      "officialReferenceUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+      "officialName": "OUT WEST P.M.",
+      "pyramid": {
+        "top": [
+          "藏红花",
+          "葡萄柚",
+          "薰衣草"
+        ],
+        "heart": [
+          "Living Gunsmoke（枪火烟熏香调）",
+          "岩蔷薇脂",
+          "浅色广藿香油 LMR"
+        ],
+        "base": [
+          "爪哇香根草油 LMR",
+          "焚香",
+          "香草"
+        ],
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+        "sourceLabel": "品牌公开香调资料"
+      },
+      "perfumer": "Pascal Gaurin",
+      "image": null,
+      "imageAlt": "ALCHEMIST OUT WEST P.M. Elixir 官网单瓶商品图",
+      "imageSourceType": "official",
+      "imageSourceUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDPWebsite_OUTWEST_PM1.jpg?v=1780306323&width=533",
+      "imageCredit": "Alchemist Fragrance 官网商品图；摄影权利人待品牌确认",
+      "imageLicense": "品牌官网版权图片；未取得独立公开再分发授权",
+      "imageRightsStatus": "brand-copyright-unlicensed",
+      "verifiedAt": "2026-11-25",
+      "sku": null,
+      "imageSize": null,
+      "imageSizeLabel": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "matchMethod": "官网商品页/系列页图像链接 + 瓶身名称及版本人工核对；SKU及文件哈希待验",
+      "reviewStatus": "pending-image-rights",
+      "reviewNote": "深棕琥珀瓶，棕色皮纹瓶盖，日落橙色背景；瓶身明确标有 P.M. / OUT WEST / elixir。 仅浏览核对，未保存文件、未验哈希及授权。",
+      "versionNote": "2026 新版；品牌访谈确认 Pascal Gaurin 创作。未将 Elixir 换算为油浓度。"
+    },
+    {
+      "id": "alchemist-out-west-absolu",
+      "brand": "ALCHEMIST",
+      "name": "OUT WEST ABSOLU",
+      "nameZh": "西行·Absolu",
+      "concentration": "Absolu",
+      "family": "花香 · 果香 · 琥珀 · 烟草 · 木质",
+      "notes": [
+        "梨",
+        "西班牙白百里香油 LMR",
+        "水仙",
+        "鸢尾根 LMR",
+        "爪哇香根草油 LMR",
+        "烟草",
+        "岩蔷薇脂"
+      ],
+      "description": "梨的轻甜果香引入白百里香与水仙；鸢尾根赋予粉质感，爪哇香根草、烟草和岩蔷薇脂形成深沉而温暖的余韵。",
+      "sourceUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+      "sourceLabel": "品牌官网资料",
+      "officialReferenceUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+      "officialName": "OUT WEST ABSOLU",
+      "pyramid": {
+        "top": [
+          "梨"
+        ],
+        "heart": [
+          "西班牙白百里香油 LMR",
+          "水仙"
+        ],
+        "base": [
+          "鸢尾根 LMR",
+          "爪哇香根草油 LMR",
+          "烟草",
+          "岩蔷薇脂"
+        ],
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+        "sourceLabel": "品牌公开香调资料"
+      },
+      "perfumer": "Pascal Gaurin",
+      "image": null,
+      "imageAlt": "ALCHEMIST OUT WEST ABSOLU Absolu 官网单瓶商品图",
+      "imageSourceType": "official",
+      "imageSourceUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDP-Website_OUT-WEST_Absolu_1_3d9cb40c-b44e-4893-80af-c4b983e41e31.jpg?v=1781148441&width=533",
+      "imageCredit": "Alchemist Fragrance 官网商品图；摄影权利人待品牌确认",
+      "imageLicense": "品牌官网版权图片；未取得独立公开再分发授权",
+      "imageRightsStatus": "brand-copyright-unlicensed",
+      "verifiedAt": "2026-11-25",
+      "sku": null,
+      "imageSize": null,
+      "imageSizeLabel": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "matchMethod": "官网商品页/系列页图像链接 + 瓶身名称及版本人工核对；SKU及文件哈希待验",
+      "reviewStatus": "pending-image-rights",
+      "reviewNote": "深色近黑瓶身，深色皮纹瓶盖、铜色金属边，冷蓝光背景；瓶身明确标有 OUT WEST / absolu。 仅浏览核对，未保存文件、未验哈希及授权。",
+      "versionNote": "2026 新版；品牌展览 2026-06-12 开幕、06-13 向公众开放；不是 P.M. 的同配方浓缩版。"
+    }
+  ],
+  "recordEvidence": [
+    {
+      "id": "alchemist-out-west",
+      "officialNotes": {
+        "top": [
+          "Yuzu",
+          "Bergamot",
+          "Green Apple"
+        ],
+        "heart": [
+          "Cedarwood",
+          "Rose",
+          "Plum"
+        ],
+        "base": [
+          "Musk",
+          "Patchouli",
+          "Vetiver"
+        ]
+      },
+      "localizedNotes": {
+        "top": [
+          "日本柚子",
+          "佛手柑",
+          "青苹果"
+        ],
+        "heart": [
+          "雪松",
+          "玫瑰",
+          "李子"
+        ],
+        "base": [
+          "麝香",
+          "广藿香",
+          "香根草"
+        ]
+      },
+      "normalizedNotesForEditorialComparison": [
+        "柚子",
+        "佛手柑",
+        "青苹果",
+        "雪松",
+        "玫瑰",
+        "李子",
+        "麝香",
+        "广藿香",
+        "香根草"
+      ],
+      "perfumer": null,
+      "perfumerStatus": "not-disclosed-on-official-product-page",
+      "releaseYear": null,
+      "mood": [
+        "Warm",
+        "Earthy",
+        "Tranquil"
+      ],
+      "moodZh": "温暖、泥土感、宁静",
+      "officialListedPriceIDR": 339000,
+      "productUrl": "https://alchemistfragrance.com/products/05-out-west",
+      "supportingSources": [
+        "https://alchemistfragrance.com/blogs/news/dpr-ian-for-out-west"
+      ],
+      "sourcePriority": "官网商品页 Notes > 官方访谈 > 第三方；不合并额外香调",
+      "classificationStatus": "editorial",
+      "chineseNameStatus": "editorial-translation-not-official",
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-am",
+      "officialNotes": {
+        "top": [
+          "Pink Pepper CO2 LMR",
+          "Lemon Oil Spain LMR",
+          "Ginger"
+        ],
+        "heart": [
+          "Cypriol"
+        ],
+        "base": [
+          "Cedarwood",
+          "Patchouli Oil Indonesia LMR",
+          "Light leather"
+        ]
+      },
+      "localizedNotes": {
+        "top": [
+          "粉红胡椒 CO₂ LMR",
+          "西班牙柠檬油 LMR",
+          "生姜"
+        ],
+        "heart": [
+          "莎草（Cypriol）"
+        ],
+        "base": [
+          "雪松",
+          "印尼广藿香油 LMR",
+          "轻皮革"
+        ]
+      },
+      "normalizedNotesForEditorialComparison": [
+        "粉红胡椒",
+        "柠檬",
+        "生姜",
+        "莎草",
+        "雪松",
+        "广藿香",
+        "皮革"
+      ],
+      "perfumer": "Jean-Christophe Hérault",
+      "perfumerStatus": "official-confirmed",
+      "releaseYear": 2026,
+      "mood": [
+        "Clean cut",
+        "Radiant",
+        "Morning Air"
+      ],
+      "moodZh": "利落、明亮、晨间空气感",
+      "officialListedPriceIDR": 579000,
+      "productUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+      "supportingSources": [
+        "https://alchemistfragrance.com/blogs/news/dpr-ian-for-out-west",
+        "https://www.youtube.com/watch?v=QSnS6IDEar4"
+      ],
+      "sourcePriority": "官网商品页 Notes > 官方访谈 > 第三方；不合并额外香调",
+      "classificationStatus": "editorial",
+      "chineseNameStatus": "editorial-translation-not-official",
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-pm",
+      "officialNotes": {
+        "top": [
+          "Saffron",
+          "Grapefruit",
+          "Lavender"
+        ],
+        "heart": [
+          "Living Gunsmoke",
+          "Labdanum",
+          "Patchouli Oil Light LMR"
+        ],
+        "base": [
+          "Vetiver Oil Java LMR",
+          "Incense",
+          "Vanilla"
+        ]
+      },
+      "localizedNotes": {
+        "top": [
+          "藏红花",
+          "葡萄柚",
+          "薰衣草"
+        ],
+        "heart": [
+          "Living Gunsmoke（枪火烟熏香调）",
+          "岩蔷薇脂",
+          "浅色广藿香油 LMR"
+        ],
+        "base": [
+          "爪哇香根草油 LMR",
+          "焚香",
+          "香草"
+        ]
+      },
+      "normalizedNotesForEditorialComparison": [
+        "藏红花",
+        "葡萄柚",
+        "薰衣草",
+        "枪火烟熏香调",
+        "岩蔷薇脂",
+        "广藿香",
+        "香根草",
+        "焚香",
+        "香草"
+      ],
+      "perfumer": "Pascal Gaurin",
+      "perfumerStatus": "official-confirmed",
+      "releaseYear": 2026,
+      "mood": [
+        "Living Gunsmoke",
+        "Magnetic",
+        "Intimate Woods"
+      ],
+      "moodZh": "枪火烟熏、吸引力、贴近肌肤的木质感",
+      "officialListedPriceIDR": 679000,
+      "productUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+      "supportingSources": [
+        "https://alchemistfragrance.com/blogs/news/dpr-ian-for-out-west",
+        "https://www.tatlerasia.com/style/beauty/from-day-to-night-inside-out-west-alchemists-latest-collection"
+      ],
+      "sourcePriority": "官网商品页 Notes > 官方访谈 > 第三方；不合并额外香调",
+      "classificationStatus": "editorial",
+      "chineseNameStatus": "editorial-translation-not-official",
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-absolu",
+      "officialNotes": {
+        "top": [
+          "Pear"
+        ],
+        "heart": [
+          "White Thyme Oil Spain LMR",
+          "Narcissus"
+        ],
+        "base": [
+          "Orris LMR",
+          "Vetiver Oil Java LMR",
+          "Tobacco",
+          "Labdanum"
+        ]
+      },
+      "localizedNotes": {
+        "top": [
+          "梨"
+        ],
+        "heart": [
+          "西班牙白百里香油 LMR",
+          "水仙"
+        ],
+        "base": [
+          "鸢尾根 LMR",
+          "爪哇香根草油 LMR",
+          "烟草",
+          "岩蔷薇脂"
+        ]
+      },
+      "normalizedNotesForEditorialComparison": [
+        "梨",
+        "白百里香",
+        "水仙",
+        "鸢尾根",
+        "香根草",
+        "烟草",
+        "岩蔷薇脂"
+      ],
+      "perfumer": "Pascal Gaurin",
+      "perfumerStatus": "official-confirmed",
+      "releaseYear": 2026,
+      "mood": [
+        "Luminous",
+        "Inevitable",
+        "Unapologetic"
+      ],
+      "moodZh": "明亮、不可回避、坦率自信",
+      "officialListedPriceIDR": 789000,
+      "productUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+      "supportingSources": [
+        "https://alchemistfragrance.com/blogs/news/out-west-exhibition-an-immersive-exhibition-where-every-version-comes-alive",
+        "https://www.youtube.com/watch?v=CqtxoqsW1Z8"
+      ],
+      "sourcePriority": "官网商品页 Notes > 官方访谈 > 第三方；不合并额外香调",
+      "classificationStatus": "editorial",
+      "chineseNameStatus": "editorial-translation-not-official",
+      "publicationBlocked": true
+    }
+  ],
+  "imageManifest": [
+    {
+      "id": "alchemist-out-west",
+      "productUrl": "https://alchemistfragrance.com/products/05-out-west",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDPWebsite_Extrait_OutWest_1.jpg?v=1780306166&width=1445",
+      "proposedLocalPath": "assets/official/alchemist-out-west.jpg",
+      "visualReviewStatus": "version-match-confirmed-in-browser",
+      "visualReviewNote": "白色球形瓶盖，透明深色圆瓶，银色标签印有 05 / OUT WEST / extrait de parfum / 50 mL；与原版商品页匹配。",
+      "imageSizeEvidence": "瓶身标示；SKU及结构化规格未核实。",
+      "imageSize": "50 mL",
+      "sku": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "downloaded": false,
+      "rightsStatus": "brand-copyright-unlicensed",
+      "permissionSource": "https://alchemistfragrance.com/pages/term-of-service",
+      "permissionGranted": false,
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-am",
+      "productUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDP_Website_OUT_WEST_AM_1.jpg?v=1780038519&width=533",
+      "proposedLocalPath": "assets/official/alchemist-out-west-am.jpg",
+      "visualReviewStatus": "version-match-confirmed-in-browser",
+      "visualReviewNote": "琥珀棕色瓶身，棕色皮纹瓶盖，浅色金属顶；瓶身明确标有 A.M. / OUT WEST / extrait de parfum。",
+      "imageSizeEvidence": "图中正面无清晰容量；不从瓶型或价格推断。",
+      "imageSize": null,
+      "sku": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "downloaded": false,
+      "rightsStatus": "brand-copyright-unlicensed",
+      "permissionSource": "https://alchemistfragrance.com/pages/term-of-service",
+      "permissionGranted": false,
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-pm",
+      "productUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDPWebsite_OUTWEST_PM1.jpg?v=1780306323&width=533",
+      "proposedLocalPath": "assets/official/alchemist-out-west-pm.jpg",
+      "visualReviewStatus": "version-match-confirmed-in-browser",
+      "visualReviewNote": "深棕琥珀瓶，棕色皮纹瓶盖，日落橙色背景；瓶身明确标有 P.M. / OUT WEST / elixir。",
+      "imageSizeEvidence": "图中正面无清晰容量；SKU及规格待核实。",
+      "imageSize": null,
+      "sku": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "downloaded": false,
+      "rightsStatus": "brand-copyright-unlicensed",
+      "permissionSource": "https://alchemistfragrance.com/pages/term-of-service",
+      "permissionGranted": false,
+      "publicationBlocked": true
+    },
+    {
+      "id": "alchemist-out-west-absolu",
+      "productUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+      "imageOriginalUrl": "https://alchemistfragrance.com/cdn/shop/files/PDP-Website_OUT-WEST_Absolu_1_3d9cb40c-b44e-4893-80af-c4b983e41e31.jpg?v=1781148441&width=533",
+      "proposedLocalPath": "assets/official/alchemist-out-west-absolu.jpg",
+      "visualReviewStatus": "version-match-confirmed-in-browser",
+      "visualReviewNote": "深色近黑瓶身，深色皮纹瓶盖、铜色金属边，冷蓝光背景；瓶身明确标有 OUT WEST / absolu。",
+      "imageSizeEvidence": "图中正面无清晰容量；SKU及规格待核实。",
+      "imageSize": null,
+      "sku": null,
+      "width": null,
+      "height": null,
+      "sha256": null,
+      "pageSha256": null,
+      "downloaded": false,
+      "rightsStatus": "brand-copyright-unlicensed",
+      "permissionSource": "https://alchemistfragrance.com/pages/term-of-service",
+      "permissionGranted": false,
+      "publicationBlocked": true
+    }
+  ],
+  "integrationCandidates": {
+    "brandLabels": {
+      "ALCHEMIST": "Alchemist（炼金术士，编辑译名）"
+    },
+    "brandRegions": {
+      "ALCHEMIST": {
+        "region": "印度尼西亚",
+        "sourceUrl": "https://www.tatlerasia.com/style/beauty/from-day-to-night-inside-out-west-alchemists-latest-collection",
+        "note": "Tatler 对品牌国别的说明；官网首页引述同一媒体，并有印尼门店。不是生产地。最终与库内国家名称及底图键核对。",
+        "method": "external-source-checked",
+        "checkedAt": "2026-11-25"
+      }
+    },
+    "versionGroups": [
+      {
+        "label": "Alchemist · Out West（西行）",
+        "ids": [
+          "alchemist-out-west",
+          "alchemist-out-west-am",
+          "alchemist-out-west-pm",
+          "alchemist-out-west-absolu"
+        ]
+      }
+    ],
+    "popularProfiles": {
+      "alchemist-out-west": {
+        "identity": {
+          "brand": "ALCHEMIST",
+          "name": "Out West"
+        },
+        "concentration": "Extrait de Parfum",
+        "sourceUrl": "https://alchemistfragrance.com/products/05-out-west",
+        "checkedAt": "2026-11-25",
+        "notes": [
+          "日本柚子",
+          "佛手柑",
+          "青苹果",
+          "雪松",
+          "玫瑰",
+          "李子",
+          "麝香",
+          "广藿香",
+          "香根草"
+        ],
+        "stages": [
+          "柚子、佛手柑与青苹果构成清爽、微酸的果香开场。",
+          "雪松的干燥木质衬托玫瑰与李子的花果气息，形成更柔和的层次。",
+          "麝香、广藿香与香根草构成温暖且带泥土感的木质背景；实际留香因人而异。"
+        ],
+        "wear": {
+          "audience": "喜欢清新果香与干爽木质，又能接受麝香和广藿香的人。",
+          "occasions": [
+            "日常通勤",
+            "休闲会面"
+          ],
+          "impression": "柚子与佛手柑带来清亮果皮气息，青苹果增加脆爽感；雪松与玫瑰、李子相接，后段以麝香、广藿香和香根草留下温暖而干燥的木质余韵。",
+          "consideration": "若对广藿香或香根草的泥土气息敏感，建议试闻后段再判断。"
+        },
+        "pyramid": {
+          "top": [
+            "日本柚子",
+            "佛手柑",
+            "青苹果"
+          ],
+          "heart": [
+            "雪松",
+            "玫瑰",
+            "李子"
+          ],
+          "base": [
+            "麝香",
+            "广藿香",
+            "香根草"
+          ]
+        }
+      },
+      "alchemist-out-west-am": {
+        "identity": {
+          "brand": "ALCHEMIST",
+          "name": "OUT WEST A.M."
+        },
+        "concentration": "Extrait de Parfum",
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-a-m-extrait-de-parfum",
+        "checkedAt": "2026-11-25",
+        "notes": [
+          "粉红胡椒 CO₂ LMR",
+          "西班牙柠檬油 LMR",
+          "生姜",
+          "莎草（Cypriol）",
+          "雪松",
+          "印尼广藿香油 LMR",
+          "轻皮革"
+        ],
+        "stages": [
+          "粉红胡椒、柠檬油和生姜交织，呈现明亮果皮与干爽辛香的对比。",
+          "莎草带来根系、木质或干燥的气味联想，是官网唯一列出的中调。",
+          "雪松、广藿香油与轻皮革构成有质感的底色，清新与厚度并存。"
+        ],
+        "wear": {
+          "audience": "喜欢柑橘辛香、干木与皮革质感的人。",
+          "occasions": [
+            "白天会面",
+            "商务休闲"
+          ],
+          "impression": "粉红胡椒、生姜和柠檬油构成清亮辛香；莎草衔接干燥的木质与根系感，雪松、印尼广藿香油和轻皮革形成克制而坚定的基调。",
+          "consideration": "皮革与莎草的干燥质感不一定适合偏甜花果香的使用者，建议先少量试穿。"
+        },
+        "pyramid": {
+          "top": [
+            "粉红胡椒 CO₂ LMR",
+            "西班牙柠檬油 LMR",
+            "生姜"
+          ],
+          "heart": [
+            "莎草（Cypriol）"
+          ],
+          "base": [
+            "雪松",
+            "印尼广藿香油 LMR",
+            "轻皮革"
+          ]
+        }
+      },
+      "alchemist-out-west-pm": {
+        "identity": {
+          "brand": "ALCHEMIST",
+          "name": "OUT WEST P.M."
+        },
+        "concentration": "Elixir",
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-p-m-elixir",
+        "checkedAt": "2026-11-25",
+        "notes": [
+          "藏红花",
+          "葡萄柚",
+          "薰衣草",
+          "Living Gunsmoke（枪火烟熏香调）",
+          "岩蔷薇脂",
+          "浅色广藿香油 LMR",
+          "爪哇香根草油 LMR",
+          "焚香",
+          "香草"
+        ],
+        "stages": [
+          "藏红花的温暖辛香与葡萄柚的清爽、薰衣草的芳香形成对照。",
+          "枪火烟熏香调、岩蔷薇脂与广藿香油让气味转向烟熏、树脂与泥土质感。",
+          "爪哇香根草与焚香构成深色木质背景，香草在尾段带来柔和甜润感。"
+        ],
+        "wear": {
+          "audience": "偏好烟熏、树脂、辛香及深沉木质的人。",
+          "occasions": [
+            "晚餐",
+            "夜间社交"
+          ],
+          "impression": "藏红花、葡萄柚和薰衣草形成辛香芳香开场，枪火烟熏香调与岩蔷薇脂、广藿香油形成深色树脂核心；香根草、焚香与香草收束。",
+          "consideration": "烟熏香调和焚香可能较具存在感；近距离场合应先从少量开始。"
+        },
+        "pyramid": {
+          "top": [
+            "藏红花",
+            "葡萄柚",
+            "薰衣草"
+          ],
+          "heart": [
+            "Living Gunsmoke（枪火烟熏香调）",
+            "岩蔷薇脂",
+            "浅色广藿香油 LMR"
+          ],
+          "base": [
+            "爪哇香根草油 LMR",
+            "焚香",
+            "香草"
+          ]
+        }
+      },
+      "alchemist-out-west-absolu": {
+        "identity": {
+          "brand": "ALCHEMIST",
+          "name": "OUT WEST ABSOLU"
+        },
+        "concentration": "Absolu",
+        "sourceUrl": "https://alchemistfragrance.com/products/out-west-absolu-copy-1",
+        "checkedAt": "2026-11-25",
+        "notes": [
+          "梨",
+          "西班牙白百里香油 LMR",
+          "水仙",
+          "鸢尾根 LMR",
+          "爪哇香根草油 LMR",
+          "烟草",
+          "岩蔷薇脂"
+        ],
+        "stages": [
+          "梨是官网唯一列出的前调，提供明亮而略带甜润的果香。",
+          "白百里香油的草本气息与水仙花香形成对照，让花香具有更复杂的轮廓。",
+          "鸢尾根的粉质感与香根草、烟草、岩蔷薇脂相接，形成偏干燥、温暖的尾段。"
+        ],
+        "wear": {
+          "audience": "喜欢复杂花香、鸢尾粉感和深色树脂木质的人。",
+          "occasions": [
+            "晚餐约会",
+            "正式晚间活动"
+          ],
+          "impression": "梨的轻甜果香引入白百里香与水仙；鸢尾根赋予粉质感，爪哇香根草、烟草和岩蔷薇脂形成深沉而温暖的余韵。",
+          "consideration": "不喜欢粉感、烟草或厚重树脂的人，建议完整试闻三段再判断。"
+        },
+        "pyramid": {
+          "top": [
+            "梨"
+          ],
+          "heart": [
+            "西班牙白百里香油 LMR",
+            "水仙"
+          ],
+          "base": [
+            "鸢尾根 LMR",
+            "爪哇香根草油 LMR",
+            "烟草",
+            "岩蔷薇脂"
+          ]
+        }
+      }
+    },
+    "concentration": {
+      "canonicalLabelToAdd": "Absolu",
+      "displayLabelToAdd": {
+        "Absolu": "Absolu · 香精版本"
+      },
+      "group": "other",
+      "note": "沿用现有 Elixir 为 other 的做法；不推断含油量；Absolu 不等于 Eau de Parfum Absolue。"
+    },
+    "displayNote": "perfumer 为候选扩展字段；若需详情 UI 展示应单独接线；名称译名为建议。"
+  },
+  "repoEvidence": [
+    {
+      "path": "PRODUCT.md",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/PRODUCT.md",
+      "blobSha": "e5040d0b017fe88a6e8e752ed266bb65b74912d3"
+    },
+    {
+      "path": "prototype/official-perfumes.js",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/prototype/official-perfumes.js",
+      "blobSha": "fa2d320b4d8a7f0e09e0a7cb9645a04eb7fc65a6"
+    },
+    {
+      "path": "prototype/catalog-expansion.js",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/prototype/catalog-expansion.js",
+      "blobSha": "352e05732e2e4eb0fa90175ab6c1c76f1edccef5"
+    },
+    {
+      "path": "prototype/data.js",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/prototype/data.js",
+      "blobSha": "f3b4b0a52a264e46721afc68f0414d0eda65b11c"
+    },
+    {
+      "path": "prototype/catalog.test.mjs",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/prototype/catalog.test.mjs",
+      "blobSha": "e623795fc3f22f572882784f074b8a2731450ae7"
+    },
+    {
+      "path": "prototype/catalog-full.test.mjs",
+      "url": "https://github.com/hjp96320-crypto/scent-atelier/blob/main/prototype/catalog-full.test.mjs",
+      "blobSha": "653d365f5ad43f5201678977f89490ac035045c8"
+    }
+  ],
+  "baseline": {
+    "curatedRecords": 100,
+    "curatedBrands": 26,
+    "fullCatalogExpectedByExistingTest": 26335,
+    "projectedCuratedRecords": 104,
+    "projectedCuratedBrands": 27,
+    "projectedFullRecordsIfNoDuplicate": 26339,
+    "fullDatasetExhaustiveDuplicateCheck": false
+  },
+  "sourceUrls": {
+    "collection": "https://alchemistfragrance.com/collections/out-west",
+    "terms": "https://alchemistfragrance.com/pages/term-of-service",
+    "brandHome": "https://alchemistfragrance.com/",
+    "brandOrigin": "https://www.tatlerasia.com/style/beauty/from-day-to-night-inside-out-west-alchemists-latest-collection",
+    "brandStoreLocator": "https://alchemistfragrance.com/pages/store-locator",
+    "campaign": "https://alchemistfragrance.com/blogs/news/dpr-ian-for-out-west",
+    "exhibition": "https://alchemistfragrance.com/blogs/news/out-west-exhibition-an-immersive-exhibition-where-every-version-comes-alive"
+  },
+  "blockers": [
+    "四张官网商品图均未获书面公开再分发许可；未复制、下载、嵌入或发布图片。",
+    "四款 SKU 未核实；原版仅由瓶身读取 50 mL，三个新品图未确认容量。",
+    "未取得本地图片字节与页面原始快照，不能填写 SHA-256/尺寸/visual-review.json；不通过现有正式测试。",
+    "原版调香师及官方首发年份未找到可信官方披露，保留 null。",
+    "尚未逐行复核 26,319 条 HF 原始记录，发布前需全库去重。",
+    "当前仓库的历史 research/catalog-100/catalog-100.json 读取返回 404，需核查研究清单及视觉审阅文件。"
+  ]
+}
