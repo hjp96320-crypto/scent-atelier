@@ -29,7 +29,7 @@ test('city aggregation counts each brand once; unknown brands never become capit
  assert.deepEqual(brandGeography([],places).cities,[]);
 });
 test('all catalog countries have finite bounded drilldown frames including known cities',()=>{
- for(const region of new Set(perfumes.map(p=>p.region))){
+ for(const region of new Set(perfumes.filter(p=>!p.atlasPending).map(p=>p.region))){
   const positions=places.brands.filter(b=>b.region===region).map(b=>b.position);
   const bounds=countryBounds(world.features.find(f=>f.properties.name===region),positions);
   assert.ok(bounds,region);assert.ok(bounds.flat().every(Number.isFinite),region);

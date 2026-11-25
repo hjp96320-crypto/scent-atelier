@@ -17,7 +17,7 @@ test('100 exact versions use verified key notes and readable three-stage explana
   assert.equal(describeWear(p),profile.wear);assert.ok(profile.wear.consideration.length>20);assert.equal(profile.wear.occasions.length,2);
  }
  assert.equal(Object.values(popularProfiles).filter(p=>p.pyramid).length,50);
- assert.equal(perfumes.filter(p=>p.reviewedProfile).length,100,'scope stays explicit');
+ assert.equal(perfumes.filter(p=>p.reviewedProfile).length,104,'100 original profiles plus four Alchemist editions');
 });
 test('previous 12 profiles are preserved and all new versions retain Chinese names',()=>{
  const previous=JSON.parse(readFileSync(new URL('../research/round-three/verified-profiles.json',import.meta.url),'utf8'));

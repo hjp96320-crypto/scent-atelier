@@ -16,6 +16,6 @@ const edp=filterCatalog(perfumes,{brand:'DIOR',query:'Sauvage',concentration:'ed
 assert.ok(edt.some(p=>p.id==='dior-sauvage-edt'));
 assert.ok(edp.some(p=>p.id==='dior-sauvage-eau-de-parfum'));
 assert.ok(!edt.some(p=>edp.some(q=>q.id===p.id)),'versions remain separate records');
-assert.equal(new Set(perfumes.map(p=>p.id)).size,26335,'no speculative duplicate versions');
+assert.equal(new Set(perfumes.map(p=>p.id)).size,26339,'no speculative duplicate versions');
 for(const p of perfumes)assert.ok(['edt','edp','parfum','cologne','other','unknown'].includes(p.concentrationKey));
 console.log(`PASS: concentration parsing, unknown category, combined version filters and ${perfumes.length} preserved identities`);

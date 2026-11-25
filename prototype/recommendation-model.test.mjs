@@ -1,12 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {perfumes} from './data.js';
+import {popularProfiles} from './popular-perfume-profiles.mjs';
 import {recommendationCatalog as catalog,recommendationRelease as release} from './recommendation-data.mjs';
 import {releaseCandidates,recommendPerfume,rememberRecommendation} from './recommendation-model.mjs';
 const date=new Date(2026,10,9,12),options={date};
 test('release covers all 100 exact reviewed versions and all 12 contexts',()=>{
  assert.equal(catalog.entries.length,100);assert.equal(new Set(catalog.entries.map(e=>e.id)).size,100);
- assert.deepEqual(new Set(catalog.entries.map(e=>e.id)),new Set(perfumes.filter(p=>p.reviewedProfile).map(p=>p.id)));
+ assert.deepEqual(new Set(catalog.entries.map(e=>e.id)),new Set(Object.keys(popularProfiles)));
  for(const w of ['晴朗','炎热','下雨','微凉'])for(const o of ['日常出门','办公室','晚间约会']){
   const entries=releaseCandidates(perfumes,w,o,options);assert.ok(entries.length>=4);
   for(const {entry,perfume} of entries){assert.equal(entry.concentration,perfume.concentration);assert.ok(entry.facts.sourceUrl.startsWith('https://'));assert.ok(entry.editorial.consideration);}

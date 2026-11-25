@@ -4,11 +4,12 @@ import {brandInitial,groupBrands,popularBrands,regionGroups} from './catalog-fil
 
 const regions=[...new Set(perfumes.map(p=>p.region))];
 const regional=regionGroups(regions),groupedRegions=regional.flatMap(g=>g.values);
-assert.equal(regions.length,48);
+assert.equal(regions.length,49);
 assert.deepEqual(new Set(groupedRegions),new Set(regions));
 assert.equal(groupedRegions.length,regions.length,'every country/region occurs once');
 assert.deepEqual(regional.map(g=>g.label),['亚洲','欧洲','北美洲','南美洲','非洲','大洋洲','跨洲（欧亚）']);
 assert.ok(regional.find(g=>g.label==='亚洲').values.includes('中国香港'));
+assert.ok(regional.find(g=>g.label==='亚洲').values.includes('印度尼西亚'));
 assert.ok(regional.find(g=>g.label==='北美洲').values.includes('墨西哥'));
 assert.deepEqual(new Set(regional.find(g=>g.label==='跨洲（欧亚）').values),new Set(['俄罗斯','土耳其']));
 assert.deepEqual(regionGroups(['未知地区','法国','法国']).find(g=>g.label==='其他').values,['未知地区']);
@@ -17,7 +18,7 @@ for(const group of regional)assert.deepEqual(group.values,[...group.values].sort
 
 for(const [name,expected] of [['CHANEL','C'],['ÉSIKA','E'],['ÁLVAREZ GÓMEZ','A'],['ÅND','A'],['#QUEENSUNITED','Q'],['4711','0–9'],['  100 BON','0–9'],['...D.S. & DURGA','D'],['纯中文品牌','#'],['','#']])assert.equal(brandInitial(name),expected,name);
 const brands=[...new Set(perfumes.map(p=>p.brand))],grouped=groupBrands(brands,brandNames);
-assert.equal(brands.length,1263);
+assert.equal(brands.length,1264);
 const popular=popularBrands(brands);
 assert.equal(popular.length,12,'all curated shortcuts exist in the current catalog');
 assert.deepEqual(popular.slice(0,4),['CHANEL','DIOR','HERMÈS','JO MALONE LONDON'],'requested brands lead the shortcut group');

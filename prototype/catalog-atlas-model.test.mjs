@@ -7,7 +7,7 @@ import {perfumes} from './data.js';
 const data=JSON.parse(fs.readFileSync(new URL('./assets/atlas/atlas-data.json',import.meta.url)));
 const index=indexAtlas(data,perfumes);
 test('published atlas joins every real ID and preserves exact versions',()=>{
- assert.equal(index.byId.size,26335);assert.deepEqual(new Set(index.byId.keys()),new Set(perfumes.map(p=>p.id)));
+ assert.equal(index.byId.size,26335);assert.deepEqual(new Set(index.byId.keys()),new Set(perfumes.filter(p=>!p.atlasPending).map(p=>p.id)));assert.equal(perfumes.filter(p=>p.atlasPending).length,4);
  const original=new Map(perfumes.map(p=>[p.id,p]));
  for(const r of index.records){assert.equal(r.p,original.get(r.id));assert.ok(r.notes.length);assert.ok(Number.isFinite(r.x+r.y));}
  assert.throws(()=>indexAtlas({...data,rows:[data.rows[0],...data.rows.slice(0,-1)]},perfumes),/重复/);
@@ -25,7 +25,7 @@ test('map totals reconcile with filtered records and corrected brands',()=>{
   const stats=regionStatistics(items);assert.equal(stats.reduce((s,r)=>s+r.count,0),items.length);
   assert.equal(stats.reduce((s,r)=>s+r.brandCount,0),new Set(items.map(p=>p.brand)).size);
  }
- assert.equal(regionStatistics(perfumes).length,48);
+ assert.equal(regionStatistics(perfumes).length,49);
  assert.ok(perfumes.filter(p=>['MONCLER','EVODY'].includes(p.brand)).every(p=>p.region==='法国'));
 });
 test('heatmap uses the current region denominator and preserves multi-label coverage',()=>{
@@ -39,7 +39,7 @@ test('heatmap uses the current region denominator and preserves multi-label cove
 });
 
 test('all heatmap cells independently reconcile and 15 small regions remain represented',()=>{
- const rows=regionHeatmap(perfumes,data.regionOrder);assert.equal(rows.length,48);assert.equal(rows.filter(r=>!r.clustered).length,15);
+ const rows=regionHeatmap(perfumes,data.regionOrder);assert.equal(rows.length,49);assert.equal(rows.filter(r=>!r.clustered).length,16);
  for(const r of rows){const items=perfumes.filter(p=>p.region===r.region);assert.equal(r.count,items.length);for(const c of r.cells){assert.equal(c.count,items.filter(p=>p.families.includes(c.family)).length);assert.equal(c.coverage,c.count/items.length);}}
  assert.deepEqual(rows.filter(r=>r.clustered).map(r=>r.region),data.regionOrder);
 });

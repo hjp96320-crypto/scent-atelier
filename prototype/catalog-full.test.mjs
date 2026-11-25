@@ -2,14 +2,15 @@ import assert from 'node:assert/strict';
 import {existsSync,readFileSync} from 'node:fs';
 import {perfumes,curatedPerfumes,brandNames} from './data.js';
 import rows from './catalog-full-rows.js';
+import {isAlchemistOfficialImage} from './alchemist-out-west.mjs';
 import {catalogPage,filterCatalog,catalogSearchText} from './catalog-model.mjs';
 assert.equal(rows.length,26319);
 assert.equal(perfumes.filter(p=>!p.image).length,0);
-assert.equal(filterCatalog(perfumes,{image:'available'}).length,26335);
+assert.equal(filterCatalog(perfumes,{image:'available'}).length,26339);
 assert.equal(new Set(perfumes.map(p=>p.id)).size,perfumes.length);
 assert.equal(new Set(perfumes.filter(p=>p.sourceRowIndex!==undefined).map(p=>p.sourceRowIndex)).size,26319,'every source row has a destination');
-assert.equal(perfumes.filter(p=>p.reviewStatus!=='dataset-imported').length,135);
-for(const p of perfumes){if(p.image)assert.ok(existsSync(new URL(p.image,import.meta.url)),p.id);else assert.equal(p.reviewStatus,'dataset-imported');assert.ok(p.region&&p.families.length);}
+assert.equal(perfumes.filter(p=>p.reviewStatus!=='dataset-imported').length,139);
+for(const p of perfumes){if(isAlchemistOfficialImage(p))assert.ok(p.image.startsWith('https://alchemistfragrance.com/'));else if(p.image)assert.ok(existsSync(new URL(p.image,import.meta.url)),p.id);else assert.equal(p.reviewStatus,'dataset-imported');assert.ok(p.region&&p.families.length);}
 for(const p of curatedPerfumes){const loaded=perfumes.find(x=>x.id===p.id);assert.equal(loaded.image,p.image);assert.equal(loaded.description,p.description);}
 const texts=perfumes.map(p=>catalogSearchText(p,brandNames));
 const selected=perfumes.find(p=>p.reviewStatus==='dataset-imported'&&p.region!=='未提供');

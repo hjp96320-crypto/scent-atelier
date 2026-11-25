@@ -8,7 +8,7 @@ import {unresolvedPyramidIds} from './catalog-note-overrides.mjs';
 import {retainedOriginalNoteNames} from './catalog-note-translations.mjs';
 const retained=new Set(retainedOriginalNoteNames.map(n=>n.toLowerCase()));
 
-assert.equal(perfumes.length,26335);
+assert.equal(perfumes.length,26339);
 for(const p of perfumes){
  assert.ok(p.displayName&&p.displayBrand,p.id);
  assert.ok(!['来源已核对','数据库收录'].includes(p.displayName),p.id);
@@ -51,6 +51,6 @@ for(const rowIndex of Object.keys(catalogPyramids)){
 }
 const app=readFileSync(new URL('./app.js',import.meta.url),'utf8');
 assert.doesNotMatch(app,/来源已核对|catalog-review|catalog-image|catalog-about|showSources|imageRights/);
-assert.doesNotMatch(app,/href=["']https?:/,'no external source links in the app interface');
+assert.doesNotMatch(app,/href=["']https?:/,'no hard-coded external source links in the app interface');
 const documented=perfumes.filter(p=>explainEvolution(p).mode==='documented').length;
 console.log(JSON.stringify({status:'PASS',catalogEntries:perfumes.length,documentedPyramids:documented,evolutionReferences:perfumes.length-documented,chineseProductNames:perfumes.filter(p=>/[\u3400-\u9fff]/.test(p.displayName)).length,chineseBrandLabels:Object.values(brandNames).filter(n=>/[\u3400-\u9fff]/.test(n)).length}));
